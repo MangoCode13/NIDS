@@ -1,0 +1,10 @@
+filebeat.modules:
+  - module: zeek
+    modbus:
+      enabled: true
+      # Dynamically captures the project path variable from the host shell
+      var.paths: ["${PROJECT_DIR}/zeek_logs/modbus.log"]
+
+output.elasticsearch:
+  hosts: ["localhost:9200"]
+  ssl.enabled: false
