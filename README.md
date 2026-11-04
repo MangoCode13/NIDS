@@ -10,8 +10,9 @@ Our Network Intrusion Detection System (NIDS) provides users with a means of mon
 |---|---------|
 | **1** | [System Description and Architecture Overview](#1-system-description-and-architecture-overview) |
 | **2** | [NIDS Start-up Guide](#2-nids-start-up-guide) |
-| **3** | [Test Instructions](#3-test-instructions) |
-| **4** | [Expected Outputs](#4-expected-outputs) |
+| **3** | [Sample Rule Instructions](#3-sample-rule-instructions) |
+| **4** | [Creating a New Security Rule](#4-creating-a-new-security-rule) |
+| **5** | [Expected Outputs](#5-expected-outputs) |
 
 ---
 
@@ -27,8 +28,8 @@ To counter this, network defenders require visibility into network activity with
 ### 1.2 Core Architectural Pillars
 - Deployed as a Docker-containerized environment.
 - Intrusion detection system data lake built on **Elasticsearch** and **Kibana**.
-- **Zeek** running natively on the host for high-performance protocol parsing and analysis.
-- **Filebeat** running natively on the host to ship parsed log fields into the container.
+- **Zeek** running natively on the host for high-performance protocol parsing and d analysis.
+- **Filebeat** running natively on the host (via `filestream` NDJSON ingestion) to ship parsed `modbus.log` fields directly into the Elasticsearch container.
 - **Pymodbus** / Python scripts for custom data querying and automated threat analysis.
 
 #### 1.2.1 Infrastructure & Preliminary WSL Setup (Windows Host)
@@ -63,39 +64,12 @@ To counter this, network defenders require visibility into network activity with
    ```
    Reopen your terminal and VS Code to apply group changes.
 
----
-
-## 2. NIDS Start-up Guide
-
-This section provides instructions for installation and environment configuration to get Kibana working and log pipelines ingesting into Elasticsearch.
-
-### 2.1 Setup and Run Elasticsearch & Kibana
-
-1. Configure your host system's kernel memory (so Elasticsearch doesn't crash on boot):
+8. Configure your host system's kernel memory (so Elasticsearch doesn't crash on boot):
    ```bash
    sudo sysctl -w vm.max_map_count=262144
    ```
-
-2. Clean and launch the Docker infrastructure stack:
-   ```bash
-   # Navigate to your project directory containing docker-compose.yml
-   docker compose down -v --remove-orphans
-   docker container prune -f
-   docker volume prune -f
-   docker image prune -a -f
-
-   # Boot the database environment
-   docker compose up -d
-   ```
-3. Verify infrastructure health:
-   ```bash
-   docker compose ps
-   ```
-   Ensure both `elasticsearch-ids` and `kibana-ids` show as healthy.
-
 ---
-
-### 2.2 Host System Dependency Configuration
+### 1.2.2 Host System Dependency Configuration
 
 #### Native Zeek Installation (Ubuntu 24.04 LTS)
 Deploy the core Long Term Support (LTS) analysis engine directly onto the host terminal:
@@ -115,6 +89,17 @@ sudo apt install zeek-lts
 echo "export PATH=\$PATH:/opt/zeek/bin" >> ~/.bashrc
 source ~/.bashrc
 ```
+### Extract Zeek Logs from Pcap (Optional)
+Process raw operational PCAP bytes through Zeek to create structured JSON text strings. Ensure you are working from the project root directory.
+
+```bash
+# 1. Create the output directory for Zeek logs
+mkdir -p ./zeek_logs
+
+# 2. Use native Zeek engine to parse the network traces into JSON-formatted logs
+zeek -r ./modbus_test.pcap policy/tuning/json-logs.zeek Log::default_logdir="./zeek_logs"
+
+```
 
 #### Native Filebeat Installation (Ubuntu 24.04 LTS)
 Run these commands in your host terminal to install the official Elastic Filebeat agent:
@@ -128,58 +113,147 @@ echo "deb [signed-by=/usr/share/keyrings/elastic-archive-keyring.gpg] https://ar
 # 3. Update apt and install Filebeat
 sudo apt update && sudo apt install filebeat
 
-# 4. Enable the native Zeek processing module
-sudo filebeat modules enable zeek
+# Note: Zeek Modbus JSON log ingestion is configured directly via the filestream input in filebeat.yml.
 ```
-
-#### Secure Configuration File Permissions
-Filebeat requires strict ownership controls to execute its configuration file:
-```bash
-# Secure the filebeat config file properties
-sudo chown root:root filebeat.yml
-sudo chmod 644 filebeat.yml
-
-# Ensure script file has executable flags active
-chmod +x start_ids.sh
-```
+---
 
 #### Setup Python Analytical Dependencies (For Neil's Environment Setup)
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install --upgrade pymodbus scapy elasticsearch pandas
 ```
+---
+## 2. NIDS Start-up Guide
 
+Start here if you already have dependencies installed. This section provides instructions for installation and environment configuration to get Kibana working and log pipelines ingesting into Elasticsearch. 
+ - Password-protected accounts are required for the Elastic Security Rules and Alerts to function. The script `init-passwords.sh` sets the passwords in Elastic from the environment variables. 
+
+### 2.1 Setup and Run Elasticsearch & Kibana
+
+1. Grab the latest changes from the remote repo:
+   ```bash
+   git pull origin main
+   ```
+
+2. Set up local credentials and launch the Docker infrastructure stack:
+   ```bash
+   test -f .env || cp .env.example .env
+   ```
+   The default admin username / password for kibana is `elastic` / `elastic`.
+
+   #### Secure Configuration File Permissions
+   Set permissions for `filebeat.yml` and the shell scripts:
+   ```bash
+   # Filebeat standard user account permissions to prevent permission issues
+   sudo chmod 644 filebeat.yml
+
+   # Ensure script file has executable flags active
+   chmod +x init-passwords.sh start_ids.sh
+   ```
+   Rebuild the containers and delete the attached volumes (-v): 
+   ```bash
+   docker compose down -v
+   docker compose up -d
+   ```
+   Elasticsearch security is enabled. Compose initializes the built-in `kibana_system` service account from `.env` before starting Kibana.
+
+3. Verify infrastructure health:
+   ```bash
+   docker compose ps
+   ```
+   Ensure both `elasticsearch-ids` and `kibana-ids` show as `Up`, and that `init-passwords` complete without errors.
+
+   Elasticsearch (`localhost:9200`) and Kibana (`localhost:5601`) are published on localhost only. `start_ids.sh` automatically loads `.env` when shipping logs.
+
+4. Run the host Filebeat wrapper script (auto-loads .env and PROJECT_DIR) to ship logs into Docker:
+   ```bash
+   ./start_ids.sh
+   # Note: ctrl + c to exit.
+   ```
 ---
 
-## 3. Test Instructions
+## 3. Sample Rule Instructions
+The logs from 11/3 11:47 to 11:50 have 3 hosts:
+   - HMI: 192.168.2.20
+   - PLC: 192.168.2.10
+   - Attacker: 192.168.5.50
 
-### 3.1 Extract and Transform Network Telemetry
-Process raw operational PCAP bytes through Zeek to create structured JSON text strings. Ensure you are working from the project root directory.
+The rule detects the attacker reading and writing to the PLC. 
 
+### 3.1 Import Security Rule and Data Filter
+Import security rule and data filter for the sample logs:
 ```bash
-# 1. Use native Zeek engine to parse the network traces into JSON formatted logs
-zeek -r ./modbus_test.pcap policy/tuning/json-logs.zeek Log::default_logdir="./zeek_logs"
+# Import the filter
+curl -u elastic:elastic -X POST "http://localhost:5601/api/saved_objects/_import" -H "kbn-xsrf: true" --form file=@DataFilter.ndjson
 
-# 2. Fire up your host Filebeat shell script framework to ship logs directly into Docker
-./start_ids.sh
+# Import the rule
+curl -u elastic:elastic -X POST "http://localhost:5601/api/detection_engine/rules/_import" -H "kbn-xsrf: true" --form file=@Roge_device_rules_export.ndjson
 ```
+In the main Discover View you'll see a timeline graph and rows of parsed Modbus metadata under the `zeek.modbus.*` fields (such as `zeek.modbus.func`, `zeek.modbus.unit`, `zeek.modbus.id.orig_h`, and `zeek.modbus.id.resp_h`).
 
----
-
-### 3.2 View Modbus Logs in Kibana
+### 3.2 Log-in and View Modbus Logs via Kibana
 1. Open your web browser and go to: `http://localhost:5601`
-2. Click the **Hamburger Menu** (three horizontal lines) in the top-left corner.
-3. Scroll down and click on **Discover** (under the Analytics section).
-4. Since this is your first time loading data, Kibana will ask you to create a Data View:
+2. Log in using the elastic superuser username and the ELASTIC_PASSWORD defined in your .env file.
+   (Default: `elastic / elastic`)
+
+### 3.3 View Security Rule
+To see the rule running in Elastic via Kibana:
+
+1. Open the left **Hamburger Menu** (the three horizontal lines in the top left corner).
+2. Under the **Security** section, click on **Rules**.
+3. Select **Detection rules (SIEM)** from the dropdown.
+4. The resulting table displays all active and inactive rules. You can view their current status, last execution time, and any recent failures.
+
+### Note: If the Modus IDS datastream is not listed:
+a. Click the **Hamburger Menu** (three horizontal lines) in the top-left corner.
+b. Scroll down and click on **Discover** (under the Analytics section).
+c. Since this is your first time loading data, select `Create data view`:
    - **Name:** `Modbus IDS`
    - **Index Pattern:** `filebeat-*`
    - **Timestamp field:** `@timestamp`
    - Click **Create (or Save) data view**.
-5. Set your target timeframe filter in the top right to **"All time"** to populate historical data.
-
-You should immediately see a timeline graph spike up and rows of parsed Modbus metadata text populate below it.
+c. Set your target timeframe filter in the top right to **"All time"** to populate historical data.
 
 ---
+## 4. Creating a New Security Rules
 
-## 4. Expected Outputs
+To create a new alert, follow these steps:
+
+### Step 1: Define the Rule Type
+1. From the **Detection rules (SIEM)** page, click the **Create new rule** button in the top right.
+2. Select **Custom query** from the *Select rule type* menu. 
+   *(Note: Use **Threshold** if you are building an excessive polling rule).*
+3. Ensure your index patterns include `filebeat-*` (or the specific index where your Zeek logs are routed).
+
+### Step 2: Build the Query
+1. In the **Custom query** box, enter your KQL (Kibana Query Language) logic. 
+2. Click **Preview results** to test if your query successfully catches historical data without triggering false positives.
+
+**Example Modbus Queries:**
+*   **Rogue Write Commands:** 
+    `zeek.modbus.func : ("WRITE_MULTIPLE_COILS" or "WRITE_MULTIPLE_REGISTERS" or "WRITE_SINGLE_COIL" or "WRITE_SINGLE_REGISTER") and not zeek.modbus.id.orig_h : "192.168.2.20"`
+
+### Step 3: About the Rule
+1. Click **Continue**.
+2. Give your rule a descriptive **Name** (e.g., "Detected Rogue Device Write Command").
+3. Assign a **Description**, **Severity** (e.g., High), and **Risk score** (e.g., 73).
+
+### Step 4: Schedule and Actions
+1. Click **Continue**.
+2. Set the rule schedule. A standard baseline is to run every **5 minutes** with a 1-minute look-back overlap.
+3. In the **Rule actions** section, to populate the Kibana UI without external alerts, you can leave this blank.
+4. Click **Create & enable rule** at the bottom of the screen.
+
+## 4.1 Investigating Rule Alerts
+
+Once a rule triggers, you can investigate the alert:
+1. Navigate to **Security** -> **Alerts**.
+2. Locate the alert generated by your new rule.
+3. Click the **Expand** (diagonal arrows) icon next to the alert to view the raw JSON or Table data, which will expose the underlying custom Zeek fields (like `zeek.modbus.func`).
+4. Click the **Investigate in timeline** icon to open a customizable workspace where you can add your specific `zeek.modbus` fields as visible columns.
+---
+
+## 5. Expected Outputs
 
 The expected outcome is to successfully detect malicious traffic while minimizing false positives. The output will be displayed on a custom designed dashboard, which provides key trends in network activity and alerts. The NIDS will be tested using an example scenario that transmits captured network traffic containing routine network activity and known malicious activity. Custom security rules will be used to identify malicious activity and raise alerts during the test scenario. The NIDS performance will be evaluated based on the alert generation and the detection rate, which limits false positives.

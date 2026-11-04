@@ -3,15 +3,17 @@ services:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
     container_name: elasticsearch-ids
     environment:
-      - discovery.type=single-node
-      - xpack.security.enabled=false
-      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+      discovery.type: single-node
+      xpack.security.enabled: "true"
+      xpack.security.http.ssl.enabled: "false"
+      ELASTIC_PASSWORD: ${ELASTIC_PASSWORD:?Set ELASTIC_PASSWORD in .env}
+      ES_JAVA_OPTS: "-Xms2g -Xmx2g"
     ulimits:
       memlock:
         soft: -1
         hard: -1
     ports:
-      - "9200:9200"
+      - "127.0.0.1:9200:9200"
     volumes:
       - es_data:/usr/share/elasticsearch/data
 
@@ -19,12 +21,32 @@ services:
     image: docker.elastic.co/kibana/kibana:8.15.0
     container_name: kibana-ids
     ports:
-      - "5601:5601"
+      - "127.0.0.1:5601:5601"
     environment:
-      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
-      - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=cyse610kibanasecuritykey1234567890
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      ELASTICSEARCH_USERNAME: kibana_system
+      ELASTICSEARCH_PASSWORD: ${KIBANA_SYSTEM_PASSWORD:?Set KIBANA_SYSTEM_PASSWORD in .env}
+      XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY: ${KIBANA_ENCRYPTEDSAVEDOBJECTS_KEY:?Set KIBANA_ENCRYPTEDSAVEDOBJECTS_KEY in .env}
+      XPACK_SECURITY_ENCRYPTIONKEY: ${KIBANA_SECURITY_SESSION_KEY:?Set KIBANA_SECURITY_SESSION_KEY in .env}
+      XPACK_REPORTING_ENCRYPTIONKEY: ${KIBANA_REPORTING_KEY:?Set KIBANA_REPORTING_KEY in .env}
     depends_on:
-      - elasticsearch
+      elasticsearch:
+        condition: service_started
+      init-passwords:
+        condition: service_completed_successfully
+
+  init-passwords:
+    image: curlimages/curl:8.10.1
+    entrypoint: ["/bin/sh", "/init-passwords.sh"]
+    environment:
+      ELASTIC_PASSWORD: ${ELASTIC_PASSWORD:?Set ELASTIC_PASSWORD in .env}
+      KIBANA_SYSTEM_PASSWORD: ${KIBANA_SYSTEM_PASSWORD:?Set KIBANA_SYSTEM_PASSWORD in .env}
+    volumes:
+      - ./init-passwords.sh:/init-passwords.sh:ro
+    depends_on:
+      elasticsearch:
+        condition: service_started
+    restart: "no"
 
 volumes:
   es_data:

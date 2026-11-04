@@ -1,0 +1,4 @@
+- module: zeek
+  modbus:
+    enabled: true
+    var.paths: ["${PROJECT_DIR}/zeek_logs/modbus.log"]

@@ -1,10 +1,25 @@
-filebeat.modules:
-  - module: zeek
-    modbus:
-      enabled: true
-      # Dynamically captures the project path variable from the host shell
-      var.paths: ["${PROJECT_DIR}/zeek_logs/modbus.log"]
+filebeat.inputs:
+  - type: filestream
+    id: zeek-modbus-id
+    enabled: true
+    paths:
+      - "${PROJECT_DIR}/zeek_logs/modbus.log"
+    parsers:
+      - ndjson:
+          target: "zeek.modbus"
+          add_error_key: true
+    processors:
+      - timestamp:
+          field: zeek.modbus.ts
+          layouts:
+            - UNIX
+            - ISO8601
+      - drop_fields:
+          fields: ["zeek.modbus.ts"]
+          ignore_missing: true
 
 output.elasticsearch:
   hosts: ["localhost:9200"]
+  username: elastic
+  password: ${ELASTIC_PASSWORD}
   ssl.enabled: false
