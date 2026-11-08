@@ -1,0 +1,2 @@
+{"ts":1794170672.653497,"note":"ARPSpoof::MAC_IP_Mismatch","msg":"Spoofing Detected: IP 192.168.5.2 moved from MAC a2:5f:ea:ac:a1:68 to 46:43:f2:be:45:e7","actions":["Notice::ACTION_LOG"],"email_dest":[],"suppress_for":3600.0}
+{"ts":1794170672.653503,"note":"ARPSpoof::MAC_IP_Mismatch","msg":"Spoofing Detected: IP 192.168.5.2 moved from MAC a2:5f:ea:ac:a1:68 to 46:43:f2:be:45:e7","actions":["Notice::ACTION_LOG"],"email_dest":[],"suppress_for":3600.0}

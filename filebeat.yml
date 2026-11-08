@@ -18,6 +18,25 @@ filebeat.inputs:
           fields: ["zeek.modbus.ts"]
           ignore_missing: true
 
+  - type: filestream
+    id: zeek-notice-id
+    enabled: true
+    paths:
+      - "${PROJECT_DIR}/zeek_logs/notice.log"
+    parsers:
+      - ndjson:
+          target: "zeek.notice"
+          add_error_key: true
+    processors:
+      - timestamp:
+          field: zeek.notice.ts
+          layouts:
+            - UNIX
+            - ISO8601
+      - drop_fields:
+          fields: ["zeek.notice.ts"]
+          ignore_missing: true
+
 output.elasticsearch:
   hosts: ["localhost:9200"]
   username: elastic
