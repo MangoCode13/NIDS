@@ -89,8 +89,9 @@ sudo apt install zeek-lts
 echo "export PATH=\$PATH:/opt/zeek/bin" >> ~/.bashrc
 source ~/.bashrc
 ```
-### Extract Zeek Logs from Pcap (Optional)
+### Extract Zeek Logs from Pcap (Optional view of zeek logs from industry)
 Process raw operational PCAP bytes through Zeek to create structured JSON text strings. Ensure you are working from the project root directory.
+The sample logs `modbus_test.pcap` were sourced from: https://github.com/ITI/ICS-Security-Tools 
 
 ```bash
 # 1. Create the output directory for Zeek logs
@@ -218,34 +219,34 @@ c. Set your target timeframe filter in the top right to **"All time"** to popula
 ---
 ## 4. Creating a New Security Rules
 
-To create a new alert, follow these steps:
+### 4.1 Add Security Rule
+To create a new rule/alert, follow these steps:
 
-### Step 1: Define the Rule Type
+#### Step 1: Define the Rule Type
 1. From the **Detection rules (SIEM)** page, click the **Create new rule** button in the top right.
 2. Select **Custom query** from the *Select rule type* menu. 
    *(Note: Use **Threshold** if you are building an excessive polling rule).*
 3. Ensure your index patterns include `filebeat-*` (or the specific index where your Zeek logs are routed).
 
-### Step 2: Build the Query
+#### Step 2: Build the Query
 1. In the **Custom query** box, enter your KQL (Kibana Query Language) logic. 
 2. Click **Preview results** to test if your query successfully catches historical data without triggering false positives.
+3. Example Modbus Queries:
+   *   **Rogue Write Commands:** 
+      `zeek.modbus.func : ("WRITE_MULTIPLE_COILS" or "WRITE_MULTIPLE_REGISTERS" or "WRITE_SINGLE_COIL" or "WRITE_SINGLE_REGISTER") and not zeek.modbus.id.orig_h : "192.168.2.20"`
 
-**Example Modbus Queries:**
-*   **Rogue Write Commands:** 
-    `zeek.modbus.func : ("WRITE_MULTIPLE_COILS" or "WRITE_MULTIPLE_REGISTERS" or "WRITE_SINGLE_COIL" or "WRITE_SINGLE_REGISTER") and not zeek.modbus.id.orig_h : "192.168.2.20"`
-
-### Step 3: About the Rule
+#### Step 3: About the Rule
 1. Click **Continue**.
 2. Give your rule a descriptive **Name** (e.g., "Detected Rogue Device Write Command").
 3. Assign a **Description**, **Severity** (e.g., High), and **Risk score** (e.g., 73).
 
-### Step 4: Schedule and Actions
+#### Step 4: Schedule and Actions
 1. Click **Continue**.
 2. Set the rule schedule. A standard baseline is to run every **5 minutes** with a 1-minute look-back overlap.
 3. In the **Rule actions** section, to populate the Kibana UI without external alerts, you can leave this blank.
 4. Click **Create & enable rule** at the bottom of the screen.
 
-## 4.1 Investigating Rule Alerts
+### 4.1 Investigating Rule Alerts
 
 Once a rule triggers, you can investigate the alert:
 1. Navigate to **Security** -> **Alerts**.
