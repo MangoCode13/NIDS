@@ -28,7 +28,7 @@ To counter this, network defenders require visibility into network activity with
 ### 1.2 Core Architectural Pillars
 - Deployed as a Docker-containerized environment.
 - Intrusion detection system data lake built on **Elasticsearch** and **Kibana**.
-- **Zeek** running natively on the host for high-performance protocol parsing and d analysis.
+- **Zeek** running natively on the host for high-performance protocol parsing and traffic analysis.
 - **Filebeat** running natively on the host (via `filestream` NDJSON ingestion) to ship parsed `modbus.log` fields directly into the Elasticsearch container.
 - **Pymodbus** / Python scripts for custom data querying and automated threat analysis.
 
@@ -72,7 +72,7 @@ To counter this, network defenders require visibility into network activity with
 ### 1.2.2 Host System Dependency Configuration
 
 #### Native Zeek Installation (Ubuntu 24.04 LTS)
-Deploy the core Long Term Support (LTS) analysis engine directly onto the host terminal:
+Deploy the core Long Term Support (LTS) analysis engine directly onto the host terminal. For troubleshooting watch: [How to install Zeek on Ubuntu 24.04](https://www.youtube.com/watch?v=Qyl8Ysdc_NM)
 ```bash
 # Add official network monitor source tree
 echo 'deb https://opensuse.org /' | sudo tee /etc/apt/sources.list.d/zeek.list
@@ -154,14 +154,14 @@ Start here if you already have dependencies installed. This section provides ins
    ```
    Rebuild the containers and delete the attached volumes (-v): 
    ```bash
-   docker compose down -v
+   docker compose down
    docker compose up -d
    ```
    Elasticsearch security is enabled. Compose initializes the built-in `kibana_system` service account from `.env` before starting Kibana.
 
 3. Verify infrastructure health:
    ```bash
-   docker compose ps
+   docker compose ps -a
    ```
    Ensure both `elasticsearch-ids` and `kibana-ids` show as `Up`, and that `init-passwords` complete without errors.
 
@@ -170,8 +170,18 @@ Start here if you already have dependencies installed. This section provides ins
 4. Run the host Filebeat wrapper script (auto-loads .env and PROJECT_DIR) to ship logs into Docker:
    ```bash
    ./start_ids.sh
-   # Note: ctrl + c to exit.
    ```
+   Note: Filebeat runs in the foreground. Open a new terminal tab and keep filebeat open to ship logs.
+
+5. To add new log files, run the zeek arp spoof script `detect-arp.zeek`. Use the temp folder to create the new notice.log and modbus.log and append to zeek logs for shipping to Elastic. Replace the pcap file name and add to the run number for the log file. 
+   ```bash
+   rm -f ~/CYSE610/zeek_logs/temp/*.log
+   zeek -C -r ./name_of_file.pcap ./detect-arp.zeek Log::default_logdir="./zeek_logs/temp"
+   mv ./zeek_logs/temp/notice.log ./zeek_logs/notice_run4.log
+   mv ./zeek_logs/temp/modbus.log ./zeek_logs/modbus_run4.log
+   ```
+   *Note: Filebeat `./start_ids.sh` need to be running from the script to ship logs.*
+
 ---
 
 ## 3. Sample Rule Instructions
@@ -188,8 +198,12 @@ Import security rule and data filter for the sample logs:
 # Import the filter
 curl -u elastic:elastic -X POST "http://localhost:5601/api/saved_objects/_import" -H "kbn-xsrf: true" --form file=@DataFilter.ndjson
 
+# Import the NIDS dashboard and its related visualizations
+curl -u elastic:elastic -X POST "http://localhost:5601/api/saved_objects/_import?overwrite=true" \
+  -H "kbn-xsrf: true" --form file=@NIDS_dash.ndjson
+
 # Import the rule
-curl -u elastic:elastic -X POST "http://localhost:5601/api/detection_engine/rules/_import" -H "kbn-xsrf: true" --form file=@Roge_device_rules_export.ndjson
+curl -u elastic:elastic -X POST "http://localhost:5601/api/detection_engine/rules/_import" -H "kbn-xsrf: true" --form file=@Rogue_device_rules_export.ndjson
 ```
 In the main Discover View you'll see a timeline graph and rows of parsed Modbus metadata under the `zeek.modbus.*` fields (such as `zeek.modbus.func`, `zeek.modbus.unit`, `zeek.modbus.id.orig_h`, and `zeek.modbus.id.resp_h`).
 
@@ -206,7 +220,14 @@ To see the rule running in Elastic via Kibana:
 3. Select **Detection rules (SIEM)** from the dropdown.
 4. The resulting table displays all active and inactive rules. You can view their current status, last execution time, and any recent failures.
 
-### Note: If the Modus IDS datastream is not listed:
+### 3.4 View the NIDS Dashboard
+1. Open the left **Hamburger Menu** in Kibana.
+2. Under **Analytics**, click **Dashboard**.
+3. Select the imported NIDS dashboard from the list.
+4. Set the **Time Picker** in the top-right corner to match your capture window (for example, `Nov 3, 11:47–11:50` for the sample logs, or **Today** / **All time** for newly ingested PCAPs) and click **Refresh**.
+   *(Note: If the dashboard includes an Elastic Security Alerts panel, ensure your imported detection rule is enabled—or run a Manual Run over the capture window—so alert documents populate.)*
+
+### Note: If the Modus IDS data view is not listed:
 a. Click the **Hamburger Menu** (three horizontal lines) in the top-left corner.
 b. Scroll down and click on **Discover** (under the Analytics section).
 c. Since this is your first time loading data, select `Create data view`:
@@ -214,10 +235,10 @@ c. Since this is your first time loading data, select `Create data view`:
    - **Index Pattern:** `filebeat-*`
    - **Timestamp field:** `@timestamp`
    - Click **Create (or Save) data view**.
-c. Set your target timeframe filter in the top right to **"All time"** to populate historical data.
+d. Set your target timeframe filter in the top right to **"All time"** to populate historical data.
 
 ---
-## 4. Creating a New Security Rules
+## 4. Creating a New Security Rule
 
 ### 4.1 Add Security Rule
 To create a new rule/alert, follow these steps:
@@ -246,7 +267,7 @@ To create a new rule/alert, follow these steps:
 3. In the **Rule actions** section, to populate the Kibana UI without external alerts, you can leave this blank.
 4. Click **Create & enable rule** at the bottom of the screen.
 
-### 4.1 Investigating Rule Alerts
+### 4.2 Investigating Rule Alerts
 
 Once a rule triggers, you can investigate the alert:
 1. Navigate to **Security** -> **Alerts**.

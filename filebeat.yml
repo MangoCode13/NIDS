@@ -3,7 +3,7 @@ filebeat.inputs:
     id: zeek-modbus-id
     enabled: true
     paths:
-      - "${PROJECT_DIR}/zeek_logs/modbus.log"
+      - "${PROJECT_DIR}/zeek_logs/modbus*.log"
     parsers:
       - ndjson:
           target: "zeek.modbus"
@@ -22,7 +22,7 @@ filebeat.inputs:
     id: zeek-notice-id
     enabled: true
     paths:
-      - "${PROJECT_DIR}/zeek_logs/notice.log"
+      - "${PROJECT_DIR}/zeek_logs/notice*.log"
     parsers:
       - ndjson:
           target: "zeek.notice"
