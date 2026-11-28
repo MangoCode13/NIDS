@@ -1,0 +1,1271 @@
+scenario,minute_utc,attack,logged_actions,target_ip,status,first_logged_utc,first_transaction_id,minute_result
+external,2023-02-01T03:51:00+00:00,Recon. Range: 65535,1,185.175.0.4,verified,2023-02-01T03:51:37.648000+00:00,,target_unknown
+external,2023-02-01T03:52:00+00:00,Recon. Range: 65535,1,185.175.0.4,verified,2023-02-01T03:52:46.776000+00:00,,target_unknown
+external,2023-02-01T03:58:00+00:00,Recon. Range: 65535,1,185.175.0.4,verified,2023-02-01T03:58:25.357000+00:00,,target_unknown
+external,2023-02-01T03:59:00+00:00,Recon. Range: 65535,1,185.175.0.4,verified,2023-02-01T03:59:28.607000+00:00,,target_unknown
+external,2023-02-01T04:01:00+00:00,Query Flooding,1,185.175.0.4,verified,2023-02-01T04:01:29.781000+00:00,,target_unknown
+external,2023-02-01T04:04:00+00:00,Recon. Range: 2,1,185.175.0.4,verified,2023-02-01T04:04:41.404000+00:00,,target_unknown
+external,2023-02-01T04:04:00+00:00,Recon. Range: 5,1,185.175.0.4,verified,2023-02-01T04:04:19.021000+00:00,,target_unknown
+external,2023-02-01T04:04:00+00:00,Recon. Range: 9,1,185.175.0.4,verified,2023-02-01T04:04:55.453000+00:00,,target_unknown
+external,2023-02-01T04:05:00+00:00,Recon. Range: 20,1,185.175.0.4,verified,2023-02-01T04:05:58.849000+00:00,,target_unknown
+external,2023-02-01T04:05:00+00:00,Recon. Range: 5,1,185.175.0.4,verified,2023-02-01T04:05:20.878000+00:00,,target_unknown
+external,2023-02-01T04:08:00+00:00,Recon. Range: 5,1,185.175.0.4,verified,2023-02-01T04:08:17.614000+00:00,,target_unknown
+external,2023-02-01T04:09:00+00:00,Recon. Range: 5,1,185.175.0.4,verified,2023-02-01T04:09:17.625000+00:00,,target_unknown
+external,2023-02-01T04:17:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:17:05.652000+00:00,,target_unknown
+external,2023-02-01T04:18:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:18:05.662000+00:00,,target_unknown
+external,2023-02-01T04:19:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:19:05.663000+00:00,,target_unknown
+external,2023-02-01T04:20:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:20:05.665000+00:00,,target_unknown
+external,2023-02-01T04:21:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:21:05.667000+00:00,,target_unknown
+external,2023-02-01T04:22:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:22:05.668000+00:00,,target_unknown
+external,2023-02-01T04:23:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:23:05.670000+00:00,,target_unknown
+external,2023-02-01T04:24:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:24:05.672000+00:00,,target_unknown
+external,2023-02-01T04:25:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:25:05.675000+00:00,,target_unknown
+external,2023-02-01T04:26:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:26:05.677000+00:00,,target_unknown
+external,2023-02-01T04:27:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:27:05.678000+00:00,,target_unknown
+external,2023-02-01T04:28:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:28:05.682000+00:00,,target_unknown
+external,2023-02-01T04:29:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:29:05.684000+00:00,,target_unknown
+external,2023-02-01T04:30:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:30:05.685000+00:00,,target_unknown
+external,2023-02-01T04:31:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:31:05.687000+00:00,,target_unknown
+external,2023-02-01T04:32:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:32:05.689000+00:00,,target_unknown
+external,2023-02-01T04:33:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:33:05.690000+00:00,,target_unknown
+external,2023-02-01T04:34:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:34:05.692000+00:00,,target_unknown
+external,2023-02-01T04:35:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:35:05.694000+00:00,,target_unknown
+external,2023-02-01T04:36:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:36:05.695000+00:00,,target_unknown
+external,2023-02-01T04:37:00+00:00,Recon. Range: 4,1,185.175.0.4,verified,2023-02-01T04:37:34.142000+00:00,,target_unknown
+external,2023-02-01T13:03:00+00:00,Query Flooding,1,185.175.0.4,verified,2023-02-01T13:03:42.697000+00:00,,target_unknown
+external,2023-02-01T13:04:00+00:00,Length manipulation,1,185.175.0.4,verified,2023-02-01T13:04:30.442000+00:00,,target_unknown
+external,2023-02-01T13:05:00+00:00,Payload injection,1,185.175.0.4,verified,2023-02-01T13:05:44.415000+00:00,,target_unknown
+external,2023-02-01T13:05:00+00:00,Replay,1,185.175.0.4,verified,2023-02-01T13:05:03.473000+00:00,,target_unknown
+external,2023-02-01T13:06:00+00:00,Brute force or specific coil. Address: 0,22539,185.175.0.4,verified,2023-02-01T13:06:29.200000+00:00,,target_unknown
+external,2023-02-01T13:06:00+00:00,Stacked Modbus Frames,1,185.175.0.4,verified,2023-02-01T13:06:17.701000+00:00,,target_unknown
+external,2023-02-01T13:07:00+00:00,Brute force or specific coil. Address: 0,42260,185.175.0.4,verified,2023-02-01T13:07:00.001000+00:00,,target_unknown
+external,2023-02-01T13:08:00+00:00,Brute force or specific coil. Address: 0,736,185.175.0.4,verified,2023-02-01T13:08:00+00:00,,target_unknown
+external,2023-02-01T13:21:00+00:00,Brute force or specific coil. Address: 0,20,185.175.0.4,verified,2023-02-01T13:21:52.282000+00:00,,target_unknown
+external,2023-02-01T13:22:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-02-01T13:22:13.415000+00:00,,target_unknown
+compromised-scada,2023-03-15T08:56:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-15T08:56:59.472000+00:00,0,flagged
+compromised-scada,2023-03-15T08:56:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T08:56:25.265000+00:00,0,flagged
+compromised-scada,2023-03-15T09:14:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T09:14:25.295000+00:00,0,flagged
+compromised-scada,2023-03-15T09:24:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-15T09:24:59.477000+00:00,0,flagged
+compromised-scada,2023-03-15T09:40:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-15T09:40:59.485000+00:00,0,flagged
+compromised-scada,2023-03-15T09:43:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-15T09:43:25.309000+00:00,0,flagged
+compromised-scada,2023-03-15T10:02:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T10:02:25.315000+00:00,0,flagged
+compromised-scada,2023-03-15T10:03:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-15T10:03:59.501000+00:00,0,flagged
+compromised-scada,2023-03-15T10:21:00+00:00,Brute force or specific coil. Address: 1,647,185.175.0.4,verified,2023-03-15T10:21:59.503000+00:00,5,flagged
+compromised-scada,2023-03-15T10:22:00+00:00,Brute force or specific coil. Address: 1,2794,185.175.0.4,verified,2023-03-15T10:22:00+00:00,5,flagged
+compromised-scada,2023-03-15T10:23:00+00:00,Brute force or specific coil. Address: 1,684,185.175.0.4,verified,2023-03-15T10:23:00.457000+00:00,5,flagged
+compromised-scada,2023-03-15T10:25:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T10:25:25.332000+00:00,0,flagged
+compromised-scada,2023-03-15T10:40:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-15T10:40:25.335000+00:00,0,flagged
+compromised-scada,2023-03-15T10:52:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-15T10:52:16.975000+00:00,0,flagged
+compromised-scada,2023-03-15T10:59:00+00:00,Brute force or specific coil. Address: 1,1929,185.175.0.5,verified,2023-03-15T10:59:25.341000+00:00,5,flagged
+compromised-scada,2023-03-15T11:00:00+00:00,Brute force or specific coil. Address: 1,2196,185.175.0.5,verified,2023-03-15T11:00:00.685000+00:00,5,flagged
+compromised-scada,2023-03-15T11:09:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-15T11:09:16.995000+00:00,0,flagged
+compromised-scada,2023-03-15T11:15:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-15T11:15:19.973000+00:00,5,flagged
+compromised-scada,2023-03-15T11:15:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-15T11:15:19.982000+00:00,5,flagged
+compromised-scada,2023-03-15T11:15:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-15T11:15:19.982000+00:00,5,flagged
+compromised-scada,2023-03-15T11:15:00+00:00,Replay,5,185.175.0.5,verified,2023-03-15T11:15:19.983000+00:00,11075,flagged
+compromised-scada,2023-03-15T11:35:00+00:00,Brute force or specific coil. Address: 1,2425,185.175.0.4,verified,2023-03-15T11:35:17.013000+00:00,5,flagged
+compromised-scada,2023-03-15T11:36:00+00:00,Brute force or specific coil. Address: 1,1700,185.175.0.4,verified,2023-03-15T11:36:00.969000+00:00,5,flagged
+compromised-scada,2023-03-15T11:42:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-15T11:42:19.985000+00:00,5,flagged
+compromised-scada,2023-03-15T11:42:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-15T11:42:19.992000+00:00,5,flagged
+compromised-scada,2023-03-15T11:42:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-15T11:42:19.992000+00:00,5,flagged
+compromised-scada,2023-03-15T11:42:00+00:00,Replay,5,185.175.0.5,verified,2023-03-15T11:42:19.992000+00:00,11076,flagged
+compromised-scada,2023-03-15T12:00:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T12:00:46.440000+00:00,0,flagged
+compromised-scada,2023-03-15T12:09:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-15T12:09:19.995000+00:00,0,flagged
+compromised-scada,2023-03-15T12:20:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T12:20:46.457000+00:00,0,flagged
+compromised-scada,2023-03-15T12:35:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T12:35:20.011000+00:00,0,flagged
+compromised-scada,2023-03-15T12:40:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-15T12:40:46.470000+00:00,0,flagged
+compromised-scada,2023-03-15T12:40:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-15T12:40:46.469000+00:00,0,flagged
+compromised-scada,2023-03-15T12:58:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-15T12:58:46.471000+00:00,5,flagged
+compromised-scada,2023-03-15T12:58:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-15T12:58:46.471000+00:00,5,flagged
+compromised-scada,2023-03-15T12:58:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-15T12:58:46.472000+00:00,5,flagged
+compromised-scada,2023-03-15T12:58:00+00:00,Replay,5,185.175.0.4,verified,2023-03-15T12:58:46.472000+00:00,43508,flagged
+compromised-scada,2023-03-15T12:58:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-15T12:58:20.013000+00:00,5,flagged
+compromised-scada,2023-03-15T13:20:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-15T13:20:46.481000+00:00,5,flagged
+compromised-scada,2023-03-15T13:20:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-15T13:20:46.484000+00:00,5,flagged
+compromised-scada,2023-03-15T13:20:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-15T13:20:46.484000+00:00,5,flagged
+compromised-scada,2023-03-15T13:20:00+00:00,Replay,5,185.175.0.4,verified,2023-03-15T13:20:46.485000+00:00,43509,flagged
+compromised-scada,2023-03-15T13:23:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-15T13:23:40.668000+00:00,0,flagged
+compromised-scada,2023-03-15T13:41:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T13:41:40.675000+00:00,0,flagged
+compromised-scada,2023-03-15T13:47:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T13:47:46.502000+00:00,0,flagged
+compromised-scada,2023-03-15T14:00:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T14:00:40.687000+00:00,0,flagged
+compromised-scada,2023-03-15T14:02:00+00:00,Brute force or specific coil. Address: 1,1575,185.175.0.4,verified,2023-03-15T14:02:46.506000+00:00,5,flagged
+compromised-scada,2023-03-15T14:03:00+00:00,Brute force or specific coil. Address: 1,1325,185.175.0.4,verified,2023-03-15T14:03:00.589000+00:00,5,flagged
+compromised-scada,2023-03-15T14:23:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T14:23:40.700000+00:00,0,flagged
+compromised-scada,2023-03-15T14:39:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-15T14:39:40.709000+00:00,0,flagged
+compromised-scada,2023-03-15T15:08:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T15:08:40.719000+00:00,0,flagged
+compromised-scada,2023-03-15T15:32:00+00:00,Brute force or specific coil. Address: 1,1999,185.175.0.5,verified,2023-03-15T15:32:40.730000+00:00,5,flagged
+compromised-scada,2023-03-15T15:33:00+00:00,Brute force or specific coil. Address: 1,2126,185.175.0.5,verified,2023-03-15T15:33:00.365000+00:00,5,flagged
+compromised-scada,2023-03-15T15:39:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-15T15:39:48.626000+00:00,0,flagged
+compromised-scada,2023-03-15T15:39:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-15T15:39:48.602000+00:00,0,flagged
+compromised-scada,2023-03-15T15:40:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-15T15:40:22.535000+00:00,0,flagged
+compromised-scada,2023-03-15T15:55:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-15T15:55:48.634000+00:00,0,flagged
+compromised-scada,2023-03-15T15:57:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T15:57:11.452000+00:00,0,flagged
+compromised-scada,2023-03-15T16:06:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T16:06:22.551000+00:00,0,flagged
+compromised-scada,2023-03-15T16:19:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-15T16:19:48.654000+00:00,0,flagged
+compromised-scada,2023-03-15T16:25:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-15T16:25:11.464000+00:00,5,flagged
+compromised-scada,2023-03-15T16:25:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-15T16:25:11.477000+00:00,5,flagged
+compromised-scada,2023-03-15T16:25:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-15T16:25:11.477000+00:00,5,flagged
+compromised-scada,2023-03-15T16:25:00+00:00,Replay,5,185.175.0.5,verified,2023-03-15T16:25:11.478000+00:00,11088,flagged
+compromised-scada,2023-03-15T16:30:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T16:30:22.570000+00:00,0,flagged
+compromised-scada,2023-03-15T16:37:00+00:00,Brute force or specific coil. Address: 1,2946,185.175.0.8,verified,2023-03-15T16:37:48.686000+00:00,5,flagged
+compromised-scada,2023-03-15T16:38:00+00:00,Brute force or specific coil. Address: 1,1179,185.175.0.8,verified,2023-03-15T16:38:00.873000+00:00,5,flagged
+compromised-scada,2023-03-15T16:40:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-15T16:40:11.480000+00:00,0,flagged
+compromised-scada,2023-03-15T16:51:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.4,verified,2023-03-15T16:51:22.592000+00:00,5,flagged
+compromised-scada,2023-03-15T17:05:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-15T17:05:11.490000+00:00,5,flagged
+compromised-scada,2023-03-15T17:05:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-15T17:05:11.501000+00:00,5,flagged
+compromised-scada,2023-03-15T17:05:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-15T17:05:11.501000+00:00,5,flagged
+compromised-scada,2023-03-15T17:05:00+00:00,Replay,5,185.175.0.5,verified,2023-03-15T17:05:11.502000+00:00,11090,flagged
+compromised-scada,2023-03-15T17:05:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-15T17:05:08.805000+00:00,0,flagged
+compromised-scada,2023-03-15T17:07:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-15T17:07:36.729000+00:00,0,flagged
+compromised-scada,2023-03-15T17:20:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-15T17:20:08.851000+00:00,0,flagged
+compromised-scada,2023-03-15T17:27:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-15T17:27:36.753000+00:00,0,flagged
+compromised-scada,2023-03-15T17:27:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-15T17:27:36.735000+00:00,0,flagged
+compromised-scada,2023-03-15T17:27:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-15T17:27:11.505000+00:00,0,flagged
+compromised-scada,2023-03-15T17:36:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-15T17:36:08.864000+00:00,0,flagged
+compromised-scada,2023-03-15T17:48:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-15T17:48:36.755000+00:00,5,flagged
+compromised-scada,2023-03-15T17:48:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-15T17:48:36.767000+00:00,5,flagged
+compromised-scada,2023-03-15T17:48:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-15T17:48:36.767000+00:00,5,flagged
+compromised-scada,2023-03-15T17:48:00+00:00,Replay,5,185.175.0.4,verified,2023-03-15T17:48:36.767000+00:00,10007,flagged
+compromised-scada,2023-03-15T17:52:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-15T17:52:11.507000+00:00,5,flagged
+compromised-scada,2023-03-15T17:52:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-15T17:52:11.521000+00:00,5,flagged
+compromised-scada,2023-03-15T17:52:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-15T17:52:11.521000+00:00,5,flagged
+compromised-scada,2023-03-15T17:52:00+00:00,Replay,5,185.175.0.5,verified,2023-03-15T17:52:11.522000+00:00,11092,flagged
+compromised-scada,2023-03-15T17:57:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-15T17:57:08.882000+00:00,0,flagged
+compromised-scada,2023-03-15T18:13:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-15T18:13:36.789000+00:00,0,flagged
+compromised-scada,2023-03-15T18:13:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-15T18:13:36.773000+00:00,0,flagged
+compromised-scada,2023-03-15T18:14:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T18:14:11.525000+00:00,0,flagged
+compromised-scada,2023-03-15T18:25:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-15T18:25:08.906000+00:00,0,flagged
+compromised-scada,2023-03-15T18:32:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T18:32:11.533000+00:00,0,flagged
+compromised-scada,2023-03-15T18:41:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T18:41:36.791000+00:00,0,flagged
+compromised-scada,2023-03-15T18:48:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-15T18:48:08.923000+00:00,0,flagged
+compromised-scada,2023-03-15T18:55:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-15T18:55:11.550000+00:00,5,flagged
+compromised-scada,2023-03-15T19:00:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T19:00:36.805000+00:00,0,flagged
+compromised-scada,2023-03-15T19:08:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-15T19:08:08.974000+00:00,0,flagged
+compromised-scada,2023-03-15T19:19:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-15T19:19:44.677000+00:00,0,flagged
+compromised-scada,2023-03-15T19:23:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-15T19:23:36.821000+00:00,0,flagged
+compromised-scada,2023-03-15T19:34:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-15T19:34:08.995000+00:00,5,flagged
+compromised-scada,2023-03-15T19:34:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-15T19:34:09.033000+00:00,5,flagged
+compromised-scada,2023-03-15T19:34:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-15T19:34:09.033000+00:00,5,flagged
+compromised-scada,2023-03-15T19:34:00+00:00,Replay,5,185.175.0.8,verified,2023-03-15T19:34:09.034000+00:00,35250,flagged
+compromised-scada,2023-03-15T19:43:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T19:43:44.689000+00:00,0,flagged
+compromised-scada,2023-03-15T19:47:00+00:00,Brute force or specific coil. Address: 1,3885,185.175.0.4,verified,2023-03-15T19:47:36.831000+00:00,5,flagged
+compromised-scada,2023-03-15T19:48:00+00:00,Brute force or specific coil. Address: 1,240,185.175.0.4,verified,2023-03-15T19:48:00.297000+00:00,5,flagged
+compromised-scada,2023-03-15T19:49:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-15T19:49:09.044000+00:00,0,flagged
+compromised-scada,2023-03-15T19:49:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-15T19:49:09.039000+00:00,0,flagged
+compromised-scada,2023-03-15T20:06:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-15T20:06:44.703000+00:00,0,flagged
+compromised-scada,2023-03-15T20:11:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-15T20:11:02.469000+00:00,0,flagged
+compromised-scada,2023-03-15T20:11:00+00:00,Brute force or specific coil. Address: 1,2358,185.175.0.8,verified,2023-03-15T20:11:09.045000+00:00,5,flagged
+compromised-scada,2023-03-15T20:23:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-15T20:23:44.724000+00:00,0,flagged
+compromised-scada,2023-03-15T20:23:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-15T20:23:44.717000+00:00,0,flagged
+compromised-scada,2023-03-15T20:39:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-15T20:39:02.473000+00:00,0,flagged
+compromised-scada,2023-03-15T20:49:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-15T20:49:44.734000+00:00,0,flagged
+compromised-scada,2023-03-15T20:49:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-15T20:49:44.725000+00:00,0,flagged
+compromised-scada,2023-03-15T21:03:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-15T21:03:02.490000+00:00,0,flagged
+compromised-scada,2023-03-15T21:03:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-15T21:03:02.480000+00:00,0,flagged
+compromised-scada,2023-03-15T21:06:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T21:06:44.735000+00:00,0,flagged
+compromised-scada,2023-03-15T21:22:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-15T21:22:44.749000+00:00,0,flagged
+compromised-scada,2023-03-15T21:22:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-15T21:22:44.747000+00:00,0,flagged
+compromised-scada,2023-03-15T21:23:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T21:23:02.491000+00:00,0,flagged
+compromised-scada,2023-03-15T21:43:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-15T21:43:44.753000+00:00,0,flagged
+compromised-scada,2023-03-15T21:52:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-15T21:52:02.548000+00:00,0,flagged
+compromised-scada,2023-03-15T22:01:00+00:00,Brute force or specific coil. Address: 1,4025,185.175.0.5,verified,2023-03-15T22:01:44.774000+00:00,5,flagged
+compromised-scada,2023-03-15T22:02:00+00:00,Brute force or specific coil. Address: 1,100,185.175.0.5,verified,2023-03-15T22:02:00.009000+00:00,6,flagged
+compromised-scada,2023-03-15T22:18:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-15T22:18:02.565000+00:00,0,flagged
+compromised-scada,2023-03-15T22:29:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T22:29:01.071000+00:00,0,flagged
+compromised-scada,2023-03-15T22:45:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-15T22:45:02.585000+00:00,0,flagged
+compromised-scada,2023-03-15T22:45:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-15T22:45:02.573000+00:00,0,flagged
+compromised-scada,2023-03-15T22:57:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-15T22:57:01.079000+00:00,0,flagged
+compromised-scada,2023-03-15T23:05:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-15T23:05:02.586000+00:00,0,flagged
+compromised-scada,2023-03-15T23:20:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-15T23:20:01.095000+00:00,5,flagged
+compromised-scada,2023-03-15T23:20:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-15T23:20:01.103000+00:00,5,flagged
+compromised-scada,2023-03-15T23:20:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-15T23:20:01.104000+00:00,5,flagged
+compromised-scada,2023-03-15T23:20:00+00:00,Replay,5,185.175.0.5,verified,2023-03-15T23:20:01.105000+00:00,11107,flagged
+compromised-scada,2023-03-15T23:23:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-15T23:23:02.597000+00:00,5,flagged
+compromised-scada,2023-03-15T23:23:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-15T23:23:02.600000+00:00,5,flagged
+compromised-scada,2023-03-15T23:23:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-15T23:23:02.600000+00:00,5,flagged
+compromised-scada,2023-03-15T23:23:00+00:00,Replay,5,185.175.0.4,verified,2023-03-15T23:23:02.601000+00:00,10021,flagged
+compromised-scada,2023-03-15T23:33:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-15T23:33:28.100000+00:00,0,flagged
+compromised-scada,2023-03-15T23:33:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-15T23:33:28.065000+00:00,0,flagged
+compromised-scada,2023-03-15T23:39:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-15T23:39:02.603000+00:00,0,flagged
+compromised-scada,2023-03-15T23:42:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-15T23:42:01.108000+00:00,0,flagged
+compromised-scada,2023-03-15T23:48:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-15T23:48:28.121000+00:00,5,flagged
+compromised-scada,2023-03-15T23:48:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-15T23:48:28.137000+00:00,5,flagged
+compromised-scada,2023-03-15T23:48:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-15T23:48:28.138000+00:00,5,flagged
+compromised-scada,2023-03-15T23:48:00+00:00,Replay,5,185.175.0.8,verified,2023-03-15T23:48:28.139000+00:00,56065,flagged
+compromised-scada,2023-03-15T23:55:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-15T23:55:02.617000+00:00,0,flagged
+compromised-scada,2023-03-16T00:03:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T00:03:01.122000+00:00,5,flagged
+compromised-scada,2023-03-16T00:03:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T00:03:01.125000+00:00,5,flagged
+compromised-scada,2023-03-16T00:03:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T00:03:01.126000+00:00,5,flagged
+compromised-scada,2023-03-16T00:03:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T00:03:01.127000+00:00,11109,flagged
+compromised-scada,2023-03-16T00:08:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T00:08:28.146000+00:00,0,flagged
+compromised-scada,2023-03-16T00:14:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-16T00:14:02.658000+00:00,0,flagged
+compromised-scada,2023-03-16T00:14:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-16T00:14:02.637000+00:00,0,flagged
+compromised-scada,2023-03-16T00:23:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T00:23:28.165000+00:00,5,flagged
+compromised-scada,2023-03-16T00:23:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T00:23:28.167000+00:00,5,flagged
+compromised-scada,2023-03-16T00:23:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T00:23:28.169000+00:00,5,flagged
+compromised-scada,2023-03-16T00:23:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T00:23:28.170000+00:00,56067,flagged
+compromised-scada,2023-03-16T00:27:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T00:27:01.129000+00:00,0,flagged
+compromised-scada,2023-03-16T00:40:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T00:40:02.659000+00:00,0,flagged
+compromised-scada,2023-03-16T00:45:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T00:45:01.133000+00:00,0,flagged
+compromised-scada,2023-03-16T00:45:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-16T00:45:28.175000+00:00,0,flagged
+compromised-scada,2023-03-16T01:03:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-16T01:03:02.665000+00:00,0,flagged
+compromised-scada,2023-03-16T01:03:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T01:03:28.190000+00:00,0,flagged
+compromised-scada,2023-03-16T01:03:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T01:03:28.187000+00:00,0,flagged
+compromised-scada,2023-03-16T01:06:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T01:06:01.163000+00:00,0,flagged
+compromised-scada,2023-03-16T01:19:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T01:19:28.205000+00:00,0,flagged
+compromised-scada,2023-03-16T01:27:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-16T01:27:02.674000+00:00,0,flagged
+compromised-scada,2023-03-16T01:28:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T01:28:01.169000+00:00,0,flagged
+compromised-scada,2023-03-16T01:42:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T01:42:28.219000+00:00,0,flagged
+compromised-scada,2023-03-16T01:52:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-16T01:52:01.174000+00:00,0,flagged
+compromised-scada,2023-03-16T01:54:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.4,verified,2023-03-16T01:54:02.681000+00:00,5,flagged
+compromised-scada,2023-03-16T02:01:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-16T02:01:28.222000+00:00,0,flagged
+compromised-scada,2023-03-16T02:08:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T02:08:01.190000+00:00,5,flagged
+compromised-scada,2023-03-16T02:08:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T02:08:01.191000+00:00,5,flagged
+compromised-scada,2023-03-16T02:08:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T02:08:01.192000+00:00,5,flagged
+compromised-scada,2023-03-16T02:08:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T02:08:01.192000+00:00,11115,flagged
+compromised-scada,2023-03-16T02:13:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T02:13:46.898000+00:00,0,flagged
+compromised-scada,2023-03-16T02:22:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T02:22:28.257000+00:00,0,flagged
+compromised-scada,2023-03-16T02:29:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-16T02:29:46.911000+00:00,5,flagged
+compromised-scada,2023-03-16T02:29:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-16T02:29:46.914000+00:00,5,flagged
+compromised-scada,2023-03-16T02:29:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-16T02:29:46.915000+00:00,5,flagged
+compromised-scada,2023-03-16T02:29:00+00:00,Replay,5,185.175.0.4,verified,2023-03-16T02:29:46.915000+00:00,10030,flagged
+compromised-scada,2023-03-16T02:32:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T02:32:01.198000+00:00,5,flagged
+compromised-scada,2023-03-16T02:32:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T02:32:01.198000+00:00,5,flagged
+compromised-scada,2023-03-16T02:32:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T02:32:01.199000+00:00,5,flagged
+compromised-scada,2023-03-16T02:32:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T02:32:01.202000+00:00,11116,flagged
+compromised-scada,2023-03-16T02:42:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-16T02:42:28.265000+00:00,0,flagged
+compromised-scada,2023-03-16T02:47:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T02:47:46.921000+00:00,0,flagged
+compromised-scada,2023-03-16T03:00:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T03:00:01.204000+00:00,0,flagged
+compromised-scada,2023-03-16T03:06:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T03:06:28.277000+00:00,5,flagged
+compromised-scada,2023-03-16T03:06:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T03:06:28.278000+00:00,5,flagged
+compromised-scada,2023-03-16T03:06:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T03:06:28.285000+00:00,5,flagged
+compromised-scada,2023-03-16T03:06:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T03:06:28.286000+00:00,56075,flagged
+compromised-scada,2023-03-16T03:12:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-16T03:12:46.941000+00:00,0,flagged
+compromised-scada,2023-03-16T03:12:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-16T03:12:46.929000+00:00,0,flagged
+compromised-scada,2023-03-16T03:15:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T03:15:01.215000+00:00,0,flagged
+compromised-scada,2023-03-16T03:15:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T03:15:01.213000+00:00,0,flagged
+compromised-scada,2023-03-16T03:33:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T03:33:46.942000+00:00,0,flagged
+compromised-scada,2023-03-16T03:33:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-16T03:33:01.218000+00:00,0,flagged
+compromised-scada,2023-03-16T03:35:00+00:00,Brute force or specific coil. Address: 1,3783,185.175.0.8,verified,2023-03-16T03:35:28.290000+00:00,5,flagged
+compromised-scada,2023-03-16T03:36:00+00:00,Brute force or specific coil. Address: 1,342,185.175.0.8,verified,2023-03-16T03:36:00.073000+00:00,5,flagged
+compromised-scada,2023-03-16T03:58:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-16T03:58:02.398000+00:00,0,flagged
+compromised-scada,2023-03-16T03:59:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T03:59:46.950000+00:00,0,flagged
+compromised-scada,2023-03-16T04:01:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T04:01:01.237000+00:00,0,flagged
+compromised-scada,2023-03-16T04:19:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T04:19:02.405000+00:00,0,flagged
+compromised-scada,2023-03-16T04:22:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T04:22:01.248000+00:00,0,flagged
+compromised-scada,2023-03-16T04:22:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T04:22:01.240000+00:00,0,flagged
+compromised-scada,2023-03-16T04:26:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-16T04:26:46.965000+00:00,5,flagged
+compromised-scada,2023-03-16T04:26:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-16T04:26:46.970000+00:00,5,flagged
+compromised-scada,2023-03-16T04:26:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-16T04:26:46.971000+00:00,5,flagged
+compromised-scada,2023-03-16T04:26:00+00:00,Replay,5,185.175.0.4,verified,2023-03-16T04:26:46.972000+00:00,10035,flagged
+compromised-scada,2023-03-16T04:40:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T04:40:02.424000+00:00,5,flagged
+compromised-scada,2023-03-16T04:40:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T04:40:02.432000+00:00,5,flagged
+compromised-scada,2023-03-16T04:40:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T04:40:02.433000+00:00,5,flagged
+compromised-scada,2023-03-16T04:40:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T04:40:02.433000+00:00,56079,flagged
+compromised-scada,2023-03-16T04:43:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T04:43:01.253000+00:00,0,flagged
+compromised-scada,2023-03-16T04:51:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-16T04:51:46.974000+00:00,0,flagged
+compromised-scada,2023-03-16T05:03:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T05:03:01.260000+00:00,0,flagged
+compromised-scada,2023-03-16T05:03:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T05:03:01.258000+00:00,0,flagged
+compromised-scada,2023-03-16T05:06:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T05:06:02.461000+00:00,0,flagged
+compromised-scada,2023-03-16T05:06:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T05:06:02.453000+00:00,0,flagged
+compromised-scada,2023-03-16T05:15:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T05:15:46.997000+00:00,0,flagged
+compromised-scada,2023-03-16T05:18:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-16T05:18:01.273000+00:00,0,flagged
+compromised-scada,2023-03-16T05:22:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-16T05:22:02.462000+00:00,0,flagged
+compromised-scada,2023-03-16T05:34:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-16T05:34:47.018000+00:00,0,flagged
+compromised-scada,2023-03-16T05:45:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T05:45:02.468000+00:00,5,flagged
+compromised-scada,2023-03-16T05:45:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T05:45:02.479000+00:00,5,flagged
+compromised-scada,2023-03-16T05:45:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T05:45:02.480000+00:00,5,flagged
+compromised-scada,2023-03-16T05:45:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T05:45:02.480000+00:00,56082,flagged
+compromised-scada,2023-03-16T05:46:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T05:46:01.281000+00:00,0,flagged
+compromised-scada,2023-03-16T05:51:00+00:00,Brute force or specific coil. Address: 1,1705,185.175.0.4,verified,2023-03-16T05:51:47.042000+00:00,5,flagged
+compromised-scada,2023-03-16T05:52:00+00:00,Brute force or specific coil. Address: 1,1066,185.175.0.4,verified,2023-03-16T05:52:00.361000+00:00,5,flagged
+compromised-scada,2023-03-16T06:08:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T06:08:02.489000+00:00,0,flagged
+compromised-scada,2023-03-16T06:09:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-16T06:09:01.283000+00:00,0,flagged
+compromised-scada,2023-03-16T06:25:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-16T06:25:01.290000+00:00,0,flagged
+compromised-scada,2023-03-16T06:35:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T06:35:02.501000+00:00,0,flagged
+compromised-scada,2023-03-16T06:47:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T06:47:01.294000+00:00,0,flagged
+compromised-scada,2023-03-16T07:02:00+00:00,Brute force or specific coil. Address: 1,3179,185.175.0.8,verified,2023-03-16T07:02:02.517000+00:00,5,flagged
+compromised-scada,2023-03-16T07:04:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T07:04:01.306000+00:00,0,flagged
+compromised-scada,2023-03-16T07:04:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T07:04:01.305000+00:00,0,flagged
+compromised-scada,2023-03-16T07:20:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T07:20:01.308000+00:00,0,flagged
+compromised-scada,2023-03-16T07:20:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T07:20:01.306000+00:00,0,flagged
+compromised-scada,2023-03-16T07:42:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T07:42:01.310000+00:00,0,flagged
+compromised-scada,2023-03-16T08:02:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T08:02:01.319000+00:00,0,flagged
+compromised-scada,2023-03-16T08:18:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T08:18:01.322000+00:00,0,flagged
+compromised-scada,2023-03-16T08:47:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T08:47:01.324000+00:00,0,flagged
+compromised-scada,2023-03-16T09:14:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-16T09:14:01.341000+00:00,5,flagged
+compromised-scada,2023-03-16T09:30:00+00:00,Brute force or specific coil. Address: 1,443,185.175.0.5,verified,2023-03-16T09:30:46.640000+00:00,5,flagged
+compromised-scada,2023-03-16T09:31:00+00:00,Brute force or specific coil. Address: 1,2001,185.175.0.5,verified,2023-03-16T09:31:00.969000+00:00,5,flagged
+compromised-scada,2023-03-16T09:32:00+00:00,Brute force or specific coil. Address: 1,1681,185.175.0.5,verified,2023-03-16T09:32:00.525000+00:00,5,flagged
+compromised-scada,2023-03-16T09:55:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-16T09:55:36.725000+00:00,5,flagged
+compromised-scada,2023-03-16T10:10:00+00:00,Brute force or specific coil. Address: 1,638,185.175.0.5,verified,2023-03-16T10:10:48.162000+00:00,5,flagged
+compromised-scada,2023-03-16T10:11:00+00:00,Brute force or specific coil. Address: 1,1676,185.175.0.5,verified,2023-03-16T10:11:00.717000+00:00,5,flagged
+compromised-scada,2023-03-16T10:12:00+00:00,Brute force or specific coil. Address: 1,1811,185.175.0.5,verified,2023-03-16T10:12:00.429000+00:00,5,flagged
+compromised-scada,2023-03-16T10:29:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T10:29:21.648000+00:00,0,flagged
+compromised-scada,2023-03-16T10:45:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T10:45:21.657000+00:00,5,flagged
+compromised-scada,2023-03-16T10:45:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T10:45:21.669000+00:00,5,flagged
+compromised-scada,2023-03-16T10:45:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T10:45:21.670000+00:00,5,flagged
+compromised-scada,2023-03-16T10:45:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T10:45:21.671000+00:00,11140,flagged
+compromised-scada,2023-03-16T11:09:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T11:09:52.518000+00:00,0,flagged
+compromised-scada,2023-03-16T11:09:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T11:09:21.676000+00:00,0,flagged
+compromised-scada,2023-03-16T11:10:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T11:10:04.402000+00:00,0,flagged
+compromised-scada,2023-03-16T11:24:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-16T11:24:52.533000+00:00,0,flagged
+compromised-scada,2023-03-16T11:33:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T11:33:04.432000+00:00,0,flagged
+compromised-scada,2023-03-16T11:33:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T11:33:04.417000+00:00,0,flagged
+compromised-scada,2023-03-16T11:36:00+00:00,Brute force or specific coil. Address: 1,3367,185.175.0.5,verified,2023-03-16T11:36:21.687000+00:00,5,flagged
+compromised-scada,2023-03-16T11:37:00+00:00,Brute force or specific coil. Address: 1,758,185.175.0.5,verified,2023-03-16T11:37:00.969000+00:00,5,flagged
+compromised-scada,2023-03-16T11:52:00+00:00,Brute force or specific coil. Address: 1,2794,185.175.0.4,verified,2023-03-16T11:52:52.548000+00:00,5,flagged
+compromised-scada,2023-03-16T11:53:00+00:00,Brute force or specific coil. Address: 1,1331,185.175.0.4,verified,2023-03-16T11:53:00.201000+00:00,5,flagged
+compromised-scada,2023-03-16T11:57:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T11:57:04.442000+00:00,0,flagged
+compromised-scada,2023-03-16T12:00:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T12:00:11.637000+00:00,0,flagged
+compromised-scada,2023-03-16T12:09:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.4,verified,2023-03-16T12:09:02.860000+00:00,5,flagged
+compromised-scada,2023-03-16T12:17:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T12:17:04.463000+00:00,0,flagged
+compromised-scada,2023-03-16T12:27:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T12:27:20.630000+00:00,0,flagged
+compromised-scada,2023-03-16T12:29:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T12:29:11.648000+00:00,0,flagged
+compromised-scada,2023-03-16T12:42:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T12:42:04.483000+00:00,0,flagged
+compromised-scada,2023-03-16T12:42:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T12:42:04.481000+00:00,0,flagged
+compromised-scada,2023-03-16T12:52:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-16T12:52:20.657000+00:00,0,flagged
+compromised-scada,2023-03-16T12:57:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T12:57:11.673000+00:00,0,flagged
+compromised-scada,2023-03-16T12:57:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T12:57:11.661000+00:00,0,flagged
+compromised-scada,2023-03-16T13:11:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-16T13:11:04.485000+00:00,0,flagged
+compromised-scada,2023-03-16T13:18:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T13:18:20.662000+00:00,0,flagged
+compromised-scada,2023-03-16T13:24:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T13:24:11.681000+00:00,0,flagged
+compromised-scada,2023-03-16T13:29:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T13:29:04.503000+00:00,0,flagged
+compromised-scada,2023-03-16T13:29:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T13:29:04.490000+00:00,0,flagged
+compromised-scada,2023-03-16T13:40:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T13:40:11.712000+00:00,0,flagged
+compromised-scada,2023-03-16T13:40:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T13:40:11.690000+00:00,0,flagged
+compromised-scada,2023-03-16T13:44:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-16T13:44:20.678000+00:00,5,flagged
+compromised-scada,2023-03-16T13:44:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-16T13:44:20.689000+00:00,5,flagged
+compromised-scada,2023-03-16T13:44:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-16T13:44:20.689000+00:00,5,flagged
+compromised-scada,2023-03-16T13:44:00+00:00,Replay,5,185.175.0.4,verified,2023-03-16T13:44:20.690000+00:00,41046,flagged
+compromised-scada,2023-03-16T13:47:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T13:47:04.518000+00:00,0,flagged
+compromised-scada,2023-03-16T13:47:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T13:47:04.512000+00:00,0,flagged
+compromised-scada,2023-03-16T14:00:00+00:00,Brute force or specific coil. Address: 1,4087,185.175.0.5,verified,2023-03-16T14:00:11.713000+00:00,5,flagged
+compromised-scada,2023-03-16T14:01:00+00:00,Brute force or specific coil. Address: 1,38,185.175.0.5,verified,2023-03-16T14:01:00.237000+00:00,6,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-16T14:07:20.692000+00:00,5,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-16T14:07:20.692000+00:00,5,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-16T14:07:20.692000+00:00,5,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Replay,5,185.175.0.4,verified,2023-03-16T14:07:20.692000+00:00,41047,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T14:07:04.523000+00:00,5,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T14:07:04.525000+00:00,5,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T14:07:04.525000+00:00,5,flagged
+compromised-scada,2023-03-16T14:07:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T14:07:04.526000+00:00,43069,flagged
+compromised-scada,2023-03-16T14:17:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T14:17:00.270000+00:00,0,flagged
+compromised-scada,2023-03-16T14:26:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-16T14:26:20.696000+00:00,0,flagged
+compromised-scada,2023-03-16T14:33:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T14:33:04.536000+00:00,5,flagged
+compromised-scada,2023-03-16T14:33:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T14:33:04.549000+00:00,5,flagged
+compromised-scada,2023-03-16T14:33:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T14:33:04.553000+00:00,5,flagged
+compromised-scada,2023-03-16T14:33:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T14:33:04.554000+00:00,43070,flagged
+compromised-scada,2023-03-16T14:41:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T14:41:20.711000+00:00,0,flagged
+compromised-scada,2023-03-16T14:41:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T14:41:00.284000+00:00,0,flagged
+compromised-scada,2023-03-16T14:53:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T14:53:04.558000+00:00,0,flagged
+compromised-scada,2023-03-16T15:01:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-16T15:01:20.727000+00:00,5,flagged
+compromised-scada,2023-03-16T15:01:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-16T15:01:20.731000+00:00,5,flagged
+compromised-scada,2023-03-16T15:01:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-16T15:01:20.731000+00:00,5,flagged
+compromised-scada,2023-03-16T15:01:00+00:00,Replay,5,185.175.0.4,verified,2023-03-16T15:01:20.731000+00:00,41050,flagged
+compromised-scada,2023-03-16T15:05:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T15:05:00.293000+00:00,0,flagged
+compromised-scada,2023-03-16T15:15:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-16T15:15:04.570000+00:00,0,flagged
+compromised-scada,2023-03-16T15:21:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T15:21:20.734000+00:00,0,flagged
+compromised-scada,2023-03-16T15:25:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T15:25:00.295000+00:00,0,flagged
+compromised-scada,2023-03-16T15:42:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T15:42:20.740000+00:00,0,flagged
+compromised-scada,2023-03-16T15:43:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T15:43:00.306000+00:00,0,flagged
+compromised-scada,2023-03-16T15:44:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T15:44:04.599000+00:00,0,flagged
+compromised-scada,2023-03-16T16:02:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-16T16:02:20.753000+00:00,5,flagged
+compromised-scada,2023-03-16T16:02:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-16T16:02:20.765000+00:00,5,flagged
+compromised-scada,2023-03-16T16:02:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-16T16:02:20.765000+00:00,5,flagged
+compromised-scada,2023-03-16T16:02:00+00:00,Replay,5,185.175.0.4,verified,2023-03-16T16:02:20.766000+00:00,41053,flagged
+compromised-scada,2023-03-16T16:05:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-16T16:05:04.602000+00:00,0,flagged
+compromised-scada,2023-03-16T16:12:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T16:12:00.308000+00:00,0,flagged
+compromised-scada,2023-03-16T16:21:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T16:21:20.769000+00:00,0,flagged
+compromised-scada,2023-03-16T16:31:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T16:31:04.632000+00:00,0,flagged
+compromised-scada,2023-03-16T16:31:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T16:31:04.617000+00:00,0,flagged
+compromised-scada,2023-03-16T16:38:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T16:38:00.322000+00:00,0,flagged
+compromised-scada,2023-03-16T16:43:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-16T16:43:20.801000+00:00,0,flagged
+compromised-scada,2023-03-16T16:43:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-16T16:43:20.777000+00:00,0,flagged
+compromised-scada,2023-03-16T16:51:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T16:51:04.641000+00:00,0,flagged
+compromised-scada,2023-03-16T16:57:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T16:57:00.337000+00:00,0,flagged
+compromised-scada,2023-03-16T16:57:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T16:57:00.330000+00:00,0,flagged
+compromised-scada,2023-03-16T17:03:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-16T17:03:20.817000+00:00,0,flagged
+compromised-scada,2023-03-16T17:03:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-16T17:03:20.802000+00:00,0,flagged
+compromised-scada,2023-03-16T17:16:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-16T17:16:00.343000+00:00,0,flagged
+compromised-scada,2023-03-16T17:16:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-16T17:16:00.343000+00:00,0,flagged
+compromised-scada,2023-03-16T17:20:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-16T17:20:04.657000+00:00,0,flagged
+compromised-scada,2023-03-16T17:21:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-16T17:21:20.818000+00:00,0,flagged
+compromised-scada,2023-03-16T17:31:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T17:31:00.345000+00:00,5,flagged
+compromised-scada,2023-03-16T17:31:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T17:31:00.345000+00:00,5,flagged
+compromised-scada,2023-03-16T17:31:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T17:31:00.346000+00:00,5,flagged
+compromised-scada,2023-03-16T17:31:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T17:31:00.346000+00:00,11158,flagged
+compromised-scada,2023-03-16T17:46:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T17:46:00.361000+00:00,0,flagged
+compromised-scada,2023-03-16T17:46:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T17:46:04.677000+00:00,0,flagged
+compromised-scada,2023-03-16T17:47:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T17:47:20.829000+00:00,0,flagged
+compromised-scada,2023-03-16T18:02:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T18:02:04.689000+00:00,5,flagged
+compromised-scada,2023-03-16T18:02:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T18:02:04.713000+00:00,5,flagged
+compromised-scada,2023-03-16T18:02:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T18:02:04.714000+00:00,5,flagged
+compromised-scada,2023-03-16T18:02:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T18:02:04.717000+00:00,43079,flagged
+compromised-scada,2023-03-16T18:08:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T18:08:00.369000+00:00,5,flagged
+compromised-scada,2023-03-16T18:08:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T18:08:00.369000+00:00,5,flagged
+compromised-scada,2023-03-16T18:08:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T18:08:00.370000+00:00,5,flagged
+compromised-scada,2023-03-16T18:08:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T18:08:00.370000+00:00,11160,flagged
+compromised-scada,2023-03-16T18:14:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-16T18:14:20.846000+00:00,0,flagged
+compromised-scada,2023-03-16T18:24:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-16T18:24:04.732000+00:00,0,flagged
+compromised-scada,2023-03-16T18:25:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-16T18:25:00.381000+00:00,5,flagged
+compromised-scada,2023-03-16T18:33:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-16T18:33:20.857000+00:00,5,flagged
+compromised-scada,2023-03-16T18:33:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-16T18:33:20.858000+00:00,5,flagged
+compromised-scada,2023-03-16T18:33:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-16T18:33:20.858000+00:00,5,flagged
+compromised-scada,2023-03-16T18:33:00+00:00,Replay,5,185.175.0.4,verified,2023-03-16T18:33:20.858000+00:00,41060,flagged
+compromised-scada,2023-03-16T18:42:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T18:42:14.475000+00:00,0,flagged
+compromised-scada,2023-03-16T18:47:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T18:47:04.737000+00:00,5,flagged
+compromised-scada,2023-03-16T18:47:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T18:47:04.744000+00:00,5,flagged
+compromised-scada,2023-03-16T18:47:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T18:47:04.745000+00:00,5,flagged
+compromised-scada,2023-03-16T18:47:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T18:47:04.749000+00:00,43081,flagged
+compromised-scada,2023-03-16T18:54:00+00:00,Brute force or specific coil. Address: 1,2164,185.175.0.4,verified,2023-03-16T18:54:20.861000+00:00,5,flagged
+compromised-scada,2023-03-16T19:00:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-16T19:00:14.485000+00:00,0,flagged
+compromised-scada,2023-03-16T19:05:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T19:05:04.755000+00:00,0,flagged
+compromised-scada,2023-03-16T19:05:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T19:05:04.753000+00:00,0,flagged
+compromised-scada,2023-03-16T19:22:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T19:22:14.503000+00:00,0,flagged
+compromised-scada,2023-03-16T19:24:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T19:24:04.757000+00:00,5,flagged
+compromised-scada,2023-03-16T19:24:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T19:24:04.765000+00:00,5,flagged
+compromised-scada,2023-03-16T19:24:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T19:24:04.765000+00:00,5,flagged
+compromised-scada,2023-03-16T19:24:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T19:24:04.766000+00:00,43083,flagged
+compromised-scada,2023-03-16T19:47:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T19:47:14.525000+00:00,0,flagged
+compromised-scada,2023-03-16T19:53:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T19:53:04.769000+00:00,0,flagged
+compromised-scada,2023-03-16T20:09:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-16T20:09:04.785000+00:00,5,flagged
+compromised-scada,2023-03-16T20:09:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-16T20:09:04.817000+00:00,5,flagged
+compromised-scada,2023-03-16T20:09:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-16T20:09:04.818000+00:00,5,flagged
+compromised-scada,2023-03-16T20:09:00+00:00,Replay,5,185.175.0.8,verified,2023-03-16T20:09:04.818000+00:00,43085,flagged
+compromised-scada,2023-03-16T20:10:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T20:10:14.552000+00:00,0,flagged
+compromised-scada,2023-03-16T20:30:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.8,verified,2023-03-16T20:30:04.822000+00:00,5,flagged
+compromised-scada,2023-03-16T20:39:00+00:00,Brute force or specific coil. Address: 1,1008,185.175.0.5,verified,2023-03-16T20:39:14.567000+00:00,5,flagged
+compromised-scada,2023-03-16T20:40:00+00:00,Brute force or specific coil. Address: 1,2096,185.175.0.5,verified,2023-03-16T20:40:00.653000+00:00,5,flagged
+compromised-scada,2023-03-16T20:41:00+00:00,Brute force or specific coil. Address: 1,1021,185.175.0.5,verified,2023-03-16T20:41:00.269000+00:00,5,flagged
+compromised-scada,2023-03-16T20:49:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T20:49:41.839000+00:00,0,flagged
+compromised-scada,2023-03-16T21:08:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T21:08:14.965000+00:00,5,flagged
+compromised-scada,2023-03-16T21:08:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T21:08:14.972000+00:00,5,flagged
+compromised-scada,2023-03-16T21:08:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T21:08:14.972000+00:00,5,flagged
+compromised-scada,2023-03-16T21:08:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T21:08:14.972000+00:00,11168,flagged
+compromised-scada,2023-03-16T21:12:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T21:12:41.959000+00:00,0,flagged
+compromised-scada,2023-03-16T21:12:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T21:12:41.958000+00:00,0,flagged
+compromised-scada,2023-03-16T21:26:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T21:26:14.974000+00:00,0,flagged
+compromised-scada,2023-03-16T21:31:00+00:00,Brute force or specific coil. Address: 1,2447,185.175.0.8,verified,2023-03-16T21:31:41.960000+00:00,5,flagged
+compromised-scada,2023-03-16T21:32:00+00:00,Brute force or specific coil. Address: 1,1678,185.175.0.8,verified,2023-03-16T21:32:00.717000+00:00,5,flagged
+compromised-scada,2023-03-16T21:51:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T21:51:14.995000+00:00,5,flagged
+compromised-scada,2023-03-16T21:51:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T21:51:14.995000+00:00,5,flagged
+compromised-scada,2023-03-16T21:51:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T21:51:14.995000+00:00,5,flagged
+compromised-scada,2023-03-16T21:51:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T21:51:14.996000+00:00,11170,flagged
+compromised-scada,2023-03-16T22:00:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T22:00:22.883000+00:00,0,flagged
+compromised-scada,2023-03-16T22:08:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-16T22:08:15.001000+00:00,5,flagged
+compromised-scada,2023-03-16T22:23:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-16T22:23:47.845000+00:00,0,flagged
+compromised-scada,2023-03-16T22:29:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-16T22:29:22.891000+00:00,0,flagged
+compromised-scada,2023-03-16T22:29:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-16T22:29:22.889000+00:00,0,flagged
+compromised-scada,2023-03-16T22:45:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-16T22:45:47.962000+00:00,5,flagged
+compromised-scada,2023-03-16T22:45:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-16T22:45:47.970000+00:00,5,flagged
+compromised-scada,2023-03-16T22:45:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-16T22:45:47.970000+00:00,5,flagged
+compromised-scada,2023-03-16T22:45:00+00:00,Replay,5,185.175.0.5,verified,2023-03-16T22:45:47.971000+00:00,11173,flagged
+compromised-scada,2023-03-16T22:46:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T22:46:16.238000+00:00,0,flagged
+compromised-scada,2023-03-16T22:54:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-16T22:54:22.892000+00:00,0,flagged
+compromised-scada,2023-03-16T23:05:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-16T23:05:16.265000+00:00,0,flagged
+compromised-scada,2023-03-16T23:06:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T23:06:47.974000+00:00,0,flagged
+compromised-scada,2023-03-16T23:15:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T23:15:22.900000+00:00,0,flagged
+compromised-scada,2023-03-16T23:21:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-16T23:21:16.285000+00:00,0,flagged
+compromised-scada,2023-03-16T23:31:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-16T23:31:22.906000+00:00,0,flagged
+compromised-scada,2023-03-16T23:32:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-16T23:32:47.987000+00:00,0,flagged
+compromised-scada,2023-03-16T23:48:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-16T23:48:16.308000+00:00,0,flagged
+compromised-scada,2023-03-16T23:49:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-16T23:49:22.912000+00:00,0,flagged
+compromised-scada,2023-03-16T23:58:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-16T23:58:48.017000+00:00,0,flagged
+compromised-scada,2023-03-17T00:13:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T00:13:16.321000+00:00,0,flagged
+compromised-scada,2023-03-17T00:15:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T00:15:48.041000+00:00,0,flagged
+compromised-scada,2023-03-17T00:15:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T00:15:48.034000+00:00,0,flagged
+compromised-scada,2023-03-17T00:16:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-17T00:16:22.925000+00:00,0,flagged
+compromised-scada,2023-03-17T00:30:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.4,verified,2023-03-17T00:30:16.351000+00:00,5,flagged
+compromised-scada,2023-03-17T00:32:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-17T00:32:22.951000+00:00,0,flagged
+compromised-scada,2023-03-17T00:34:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T00:34:48.042000+00:00,0,flagged
+compromised-scada,2023-03-17T00:45:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T00:45:37.219000+00:00,0,flagged
+compromised-scada,2023-03-17T00:48:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-17T00:48:22.970000+00:00,5,flagged
+compromised-scada,2023-03-17T00:48:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-17T00:48:22.971000+00:00,5,flagged
+compromised-scada,2023-03-17T00:48:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-17T00:48:22.971000+00:00,5,flagged
+compromised-scada,2023-03-17T00:48:00+00:00,Replay,5,185.175.0.8,verified,2023-03-17T00:48:22.993000+00:00,43098,flagged
+compromised-scada,2023-03-17T00:52:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T00:52:48.053000+00:00,0,flagged
+compromised-scada,2023-03-17T01:04:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T01:04:37.236000+00:00,0,flagged
+compromised-scada,2023-03-17T01:11:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-17T01:11:23.004000+00:00,0,flagged
+compromised-scada,2023-03-17T01:14:00+00:00,Brute force or specific coil. Address: 1,344,185.175.0.5,verified,2023-03-17T01:14:48.065000+00:00,5,flagged
+compromised-scada,2023-03-17T01:15:00+00:00,Brute force or specific coil. Address: 1,3781,185.175.0.5,verified,2023-03-17T01:15:00.429000+00:00,5,flagged
+compromised-scada,2023-03-17T01:33:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T01:33:37.288000+00:00,0,flagged
+compromised-scada,2023-03-17T01:33:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-17T01:33:23.008000+00:00,0,flagged
+compromised-scada,2023-03-17T01:36:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T01:36:25.733000+00:00,0,flagged
+compromised-scada,2023-03-17T01:49:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-17T01:49:23.021000+00:00,0,flagged
+compromised-scada,2023-03-17T01:58:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T01:58:37.292000+00:00,0,flagged
+compromised-scada,2023-03-17T01:59:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T01:59:25.741000+00:00,0,flagged
+compromised-scada,2023-03-17T02:16:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-17T02:16:23.028000+00:00,0,flagged
+compromised-scada,2023-03-17T02:21:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T02:21:25.762000+00:00,0,flagged
+compromised-scada,2023-03-17T02:27:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T02:27:37.301000+00:00,5,flagged
+compromised-scada,2023-03-17T02:27:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T02:27:37.305000+00:00,5,flagged
+compromised-scada,2023-03-17T02:27:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T02:27:37.305000+00:00,5,flagged
+compromised-scada,2023-03-17T02:27:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T02:27:37.306000+00:00,10507,flagged
+compromised-scada,2023-03-17T02:34:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-17T02:34:23.030000+00:00,0,flagged
+compromised-scada,2023-03-17T02:45:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T02:45:25.785000+00:00,0,flagged
+compromised-scada,2023-03-17T02:45:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T02:45:25.776000+00:00,0,flagged
+compromised-scada,2023-03-17T02:46:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.4,verified,2023-03-17T02:46:37.310000+00:00,5,flagged
+compromised-scada,2023-03-17T02:54:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-17T02:54:23.034000+00:00,0,flagged
+compromised-scada,2023-03-17T03:02:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T03:02:58.214000+00:00,5,flagged
+compromised-scada,2023-03-17T03:02:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T03:02:58.215000+00:00,5,flagged
+compromised-scada,2023-03-17T03:02:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T03:02:58.215000+00:00,5,flagged
+compromised-scada,2023-03-17T03:02:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T03:02:58.215000+00:00,10509,flagged
+compromised-scada,2023-03-17T03:06:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T03:06:25.794000+00:00,0,flagged
+compromised-scada,2023-03-17T03:06:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T03:06:25.787000+00:00,0,flagged
+compromised-scada,2023-03-17T03:11:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-17T03:11:23.043000+00:00,0,flagged
+compromised-scada,2023-03-17T03:22:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-17T03:22:58.221000+00:00,0,flagged
+compromised-scada,2023-03-17T03:25:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T03:25:25.795000+00:00,0,flagged
+compromised-scada,2023-03-17T03:33:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-17T03:33:23.045000+00:00,5,flagged
+compromised-scada,2023-03-17T03:33:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-17T03:33:23.046000+00:00,5,flagged
+compromised-scada,2023-03-17T03:33:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-17T03:33:23.046000+00:00,5,flagged
+compromised-scada,2023-03-17T03:33:00+00:00,Replay,5,185.175.0.8,verified,2023-03-17T03:33:23.046000+00:00,43106,flagged
+compromised-scada,2023-03-17T03:39:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T03:39:58.244000+00:00,0,flagged
+compromised-scada,2023-03-17T03:39:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T03:39:58.235000+00:00,0,flagged
+compromised-scada,2023-03-17T03:45:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T03:45:25.817000+00:00,5,flagged
+compromised-scada,2023-03-17T03:45:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T03:45:25.824000+00:00,5,flagged
+compromised-scada,2023-03-17T03:45:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T03:45:25.825000+00:00,5,flagged
+compromised-scada,2023-03-17T03:45:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T03:45:25.825000+00:00,11187,flagged
+compromised-scada,2023-03-17T03:49:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-17T03:49:23.061000+00:00,0,flagged
+compromised-scada,2023-03-17T03:55:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-17T03:55:58.248000+00:00,0,flagged
+compromised-scada,2023-03-17T04:12:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T04:12:25.827000+00:00,0,flagged
+compromised-scada,2023-03-17T04:14:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-17T04:14:23.075000+00:00,0,flagged
+compromised-scada,2023-03-17T04:19:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T04:19:58.254000+00:00,0,flagged
+compromised-scada,2023-03-17T04:35:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T04:35:25.834000+00:00,0,flagged
+compromised-scada,2023-03-17T04:38:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.8,verified,2023-03-17T04:38:23.083000+00:00,5,flagged
+compromised-scada,2023-03-17T04:42:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T04:42:58.264000+00:00,0,flagged
+compromised-scada,2023-03-17T04:53:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T04:53:25.856000+00:00,0,flagged
+compromised-scada,2023-03-17T05:02:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-17T05:02:48.899000+00:00,5,flagged
+compromised-scada,2023-03-17T05:02:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-17T05:02:48.900000+00:00,5,flagged
+compromised-scada,2023-03-17T05:02:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-17T05:02:48.917000+00:00,5,flagged
+compromised-scada,2023-03-17T05:02:00+00:00,Replay,5,185.175.0.8,verified,2023-03-17T05:02:48.917000+00:00,43110,flagged
+compromised-scada,2023-03-17T05:08:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T05:08:58.281000+00:00,0,flagged
+compromised-scada,2023-03-17T05:08:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T05:08:58.277000+00:00,0,flagged
+compromised-scada,2023-03-17T05:16:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T05:16:25.885000+00:00,0,flagged
+compromised-scada,2023-03-17T05:16:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T05:16:25.875000+00:00,0,flagged
+compromised-scada,2023-03-17T05:30:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-17T05:30:48.941000+00:00,0,flagged
+compromised-scada,2023-03-17T05:30:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-17T05:30:48.921000+00:00,0,flagged
+compromised-scada,2023-03-17T05:35:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-17T05:35:58.283000+00:00,0,flagged
+compromised-scada,2023-03-17T05:40:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-17T05:40:25.886000+00:00,5,flagged
+compromised-scada,2023-03-17T05:47:00+00:00,Brute force or specific coil. Address: 1,2013,185.175.0.8,verified,2023-03-17T05:47:48.949000+00:00,5,flagged
+compromised-scada,2023-03-17T05:48:00+00:00,Brute force or specific coil. Address: 1,2112,185.175.0.8,verified,2023-03-17T05:48:00.621000+00:00,5,flagged
+compromised-scada,2023-03-17T05:51:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T05:51:58.290000+00:00,0,flagged
+compromised-scada,2023-03-17T05:59:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T05:59:32.809000+00:00,5,flagged
+compromised-scada,2023-03-17T05:59:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T05:59:32.817000+00:00,5,flagged
+compromised-scada,2023-03-17T05:59:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T05:59:32.817000+00:00,5,flagged
+compromised-scada,2023-03-17T05:59:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T05:59:32.818000+00:00,11193,flagged
+compromised-scada,2023-03-17T06:08:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T06:08:58.297000+00:00,0,flagged
+compromised-scada,2023-03-17T06:11:00+00:00,Brute force or specific coil. Address: 1,2245,185.175.0.8,verified,2023-03-17T06:11:21.250000+00:00,5,flagged
+compromised-scada,2023-03-17T06:19:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T06:19:32.825000+00:00,0,flagged
+compromised-scada,2023-03-17T06:32:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T06:32:58.302000+00:00,0,flagged
+compromised-scada,2023-03-17T06:47:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T06:47:32.847000+00:00,0,flagged
+compromised-scada,2023-03-17T06:47:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T06:47:32.834000+00:00,0,flagged
+compromised-scada,2023-03-17T06:55:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T06:55:58.321000+00:00,5,flagged
+compromised-scada,2023-03-17T06:55:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T06:55:58.332000+00:00,5,flagged
+compromised-scada,2023-03-17T06:55:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T06:55:58.333000+00:00,5,flagged
+compromised-scada,2023-03-17T06:55:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T06:55:58.333000+00:00,10520,flagged
+compromised-scada,2023-03-17T07:08:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T07:08:32.848000+00:00,5,flagged
+compromised-scada,2023-03-17T07:08:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T07:08:32.848000+00:00,5,flagged
+compromised-scada,2023-03-17T07:08:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T07:08:32.849000+00:00,5,flagged
+compromised-scada,2023-03-17T07:08:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T07:08:32.849000+00:00,11196,flagged
+compromised-scada,2023-03-17T07:13:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T07:13:58.335000+00:00,0,flagged
+compromised-scada,2023-03-17T07:30:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T07:30:32.853000+00:00,0,flagged
+compromised-scada,2023-03-17T07:39:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T07:39:58.338000+00:00,5,flagged
+compromised-scada,2023-03-17T07:39:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T07:39:58.353000+00:00,5,flagged
+compromised-scada,2023-03-17T07:39:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T07:39:58.353000+00:00,5,flagged
+compromised-scada,2023-03-17T07:39:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T07:39:58.354000+00:00,10522,flagged
+compromised-scada,2023-03-17T07:47:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-17T07:47:32.873000+00:00,5,flagged
+compromised-scada,2023-03-17T07:55:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T07:55:58.356000+00:00,5,flagged
+compromised-scada,2023-03-17T07:55:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T07:55:58.356000+00:00,5,flagged
+compromised-scada,2023-03-17T07:55:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T07:55:58.356000+00:00,5,flagged
+compromised-scada,2023-03-17T07:55:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T07:55:58.357000+00:00,10523,flagged
+compromised-scada,2023-03-17T08:05:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T08:05:49.640000+00:00,5,flagged
+compromised-scada,2023-03-17T08:05:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T08:05:49.649000+00:00,5,flagged
+compromised-scada,2023-03-17T08:05:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T08:05:49.650000+00:00,5,flagged
+compromised-scada,2023-03-17T08:05:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T08:05:49.650000+00:00,11199,flagged
+compromised-scada,2023-03-17T08:23:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T08:23:58.359000+00:00,0,flagged
+compromised-scada,2023-03-17T08:32:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T08:32:49.652000+00:00,0,flagged
+compromised-scada,2023-03-17T08:41:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T08:41:58.366000+00:00,0,flagged
+compromised-scada,2023-03-17T08:57:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T08:57:58.380000+00:00,0,flagged
+compromised-scada,2023-03-17T08:57:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T08:57:58.377000+00:00,0,flagged
+compromised-scada,2023-03-17T08:59:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T08:59:49.770000+00:00,5,flagged
+compromised-scada,2023-03-17T08:59:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T08:59:49.774000+00:00,5,flagged
+compromised-scada,2023-03-17T08:59:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T08:59:49.774000+00:00,5,flagged
+compromised-scada,2023-03-17T08:59:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T08:59:49.775000+00:00,11201,flagged
+compromised-scada,2023-03-17T09:14:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T09:14:58.389000+00:00,0,flagged
+compromised-scada,2023-03-17T09:21:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T09:21:49.778000+00:00,5,flagged
+compromised-scada,2023-03-17T09:21:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T09:21:49.787000+00:00,5,flagged
+compromised-scada,2023-03-17T09:21:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T09:21:49.788000+00:00,5,flagged
+compromised-scada,2023-03-17T09:21:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T09:21:49.789000+00:00,11202,flagged
+compromised-scada,2023-03-17T09:37:00+00:00,Brute force or specific coil. Address: 1,1481,185.175.0.5,verified,2023-03-17T09:37:49.795000+00:00,5,flagged
+compromised-scada,2023-03-17T09:38:00+00:00,Brute force or specific coil. Address: 1,2644,185.175.0.5,verified,2023-03-17T09:38:00.909000+00:00,5,flagged
+compromised-scada,2023-03-17T09:40:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T09:40:58.391000+00:00,5,flagged
+compromised-scada,2023-03-17T09:40:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T09:40:58.394000+00:00,5,flagged
+compromised-scada,2023-03-17T09:40:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T09:40:58.394000+00:00,5,flagged
+compromised-scada,2023-03-17T09:40:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T09:40:58.395000+00:00,10528,flagged
+compromised-scada,2023-03-17T09:56:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T09:56:04.559000+00:00,0,flagged
+compromised-scada,2023-03-17T10:06:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T10:06:58.396000+00:00,0,flagged
+compromised-scada,2023-03-17T10:16:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-17T10:16:04.569000+00:00,0,flagged
+compromised-scada,2023-03-17T10:22:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T10:22:58.408000+00:00,0,flagged
+compromised-scada,2023-03-17T10:36:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-17T10:36:04.582000+00:00,5,flagged
+compromised-scada,2023-03-17T10:49:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T10:49:58.418000+00:00,0,flagged
+compromised-scada,2023-03-17T10:52:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T10:52:21.380000+00:00,5,flagged
+compromised-scada,2023-03-17T10:52:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T10:52:21.391000+00:00,5,flagged
+compromised-scada,2023-03-17T10:52:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T10:52:21.392000+00:00,5,flagged
+compromised-scada,2023-03-17T10:52:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T10:52:21.392000+00:00,11207,flagged
+compromised-scada,2023-03-17T11:10:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T11:10:58.427000+00:00,0,flagged
+compromised-scada,2023-03-17T11:21:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T11:21:21.395000+00:00,0,flagged
+compromised-scada,2023-03-17T11:39:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T11:39:58.448000+00:00,0,flagged
+compromised-scada,2023-03-17T11:46:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T11:46:21.403000+00:00,0,flagged
+compromised-scada,2023-03-17T11:57:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T11:57:58.458000+00:00,0,flagged
+compromised-scada,2023-03-17T12:04:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T12:04:21.427000+00:00,0,flagged
+compromised-scada,2023-03-17T12:04:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T12:04:21.417000+00:00,0,flagged
+compromised-scada,2023-03-17T12:19:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T12:19:58.466000+00:00,0,flagged
+compromised-scada,2023-03-17T12:27:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T12:27:21.430000+00:00,0,flagged
+compromised-scada,2023-03-17T12:35:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T12:35:58.496000+00:00,0,flagged
+compromised-scada,2023-03-17T12:35:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T12:35:58.481000+00:00,0,flagged
+compromised-scada,2023-03-17T12:45:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T12:45:21.441000+00:00,0,flagged
+compromised-scada,2023-03-17T13:01:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T13:01:58.497000+00:00,0,flagged
+compromised-scada,2023-03-17T13:05:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-17T13:05:21.450000+00:00,0,flagged
+compromised-scada,2023-03-17T13:22:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T13:22:58.500000+00:00,0,flagged
+compromised-scada,2023-03-17T13:25:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T13:25:21.464000+00:00,0,flagged
+compromised-scada,2023-03-17T13:25:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T13:25:21.452000+00:00,0,flagged
+compromised-scada,2023-03-17T13:38:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T13:38:58.521000+00:00,0,flagged
+compromised-scada,2023-03-17T13:48:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T13:48:21.468000+00:00,0,flagged
+compromised-scada,2023-03-17T13:53:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T13:53:58.530000+00:00,0,flagged
+compromised-scada,2023-03-17T14:08:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T14:08:21.482000+00:00,0,flagged
+compromised-scada,2023-03-17T14:10:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-17T14:10:58.538000+00:00,0,flagged
+compromised-scada,2023-03-17T14:31:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-17T14:31:21.493000+00:00,5,flagged
+compromised-scada,2023-03-17T14:36:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T14:36:58.547000+00:00,0,flagged
+compromised-scada,2023-03-17T14:59:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-17T14:59:43.194000+00:00,0,flagged
+compromised-scada,2023-03-17T15:05:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T15:05:58.566000+00:00,0,flagged
+compromised-scada,2023-03-17T15:20:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T15:20:58.576000+00:00,0,flagged
+compromised-scada,2023-03-17T15:20:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T15:20:58.568000+00:00,0,flagged
+compromised-scada,2023-03-17T15:23:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T15:23:43.202000+00:00,0,flagged
+compromised-scada,2023-03-17T15:44:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T15:44:58.578000+00:00,0,flagged
+compromised-scada,2023-03-17T15:49:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T15:49:43.211000+00:00,0,flagged
+compromised-scada,2023-03-17T16:06:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-17T16:06:43.227000+00:00,0,flagged
+compromised-scada,2023-03-17T16:11:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T16:11:58.590000+00:00,0,flagged
+compromised-scada,2023-03-17T16:11:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T16:11:58.589000+00:00,0,flagged
+compromised-scada,2023-03-17T16:34:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T16:34:43.230000+00:00,0,flagged
+compromised-scada,2023-03-17T16:35:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T16:35:58.591000+00:00,0,flagged
+compromised-scada,2023-03-17T16:51:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T16:51:43.242000+00:00,5,flagged
+compromised-scada,2023-03-17T16:51:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T16:51:43.249000+00:00,5,flagged
+compromised-scada,2023-03-17T16:51:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T16:51:43.249000+00:00,5,flagged
+compromised-scada,2023-03-17T16:51:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T16:51:43.250000+00:00,11223,flagged
+compromised-scada,2023-03-17T16:53:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T16:53:58.861000+00:00,0,flagged
+compromised-scada,2023-03-17T17:13:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T17:13:58.871000+00:00,0,flagged
+compromised-scada,2023-03-17T17:14:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T17:14:43.257000+00:00,0,flagged
+compromised-scada,2023-03-17T17:14:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T17:14:43.253000+00:00,0,flagged
+compromised-scada,2023-03-17T17:31:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T17:31:58.893000+00:00,0,flagged
+compromised-scada,2023-03-17T17:31:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T17:31:43.258000+00:00,5,flagged
+compromised-scada,2023-03-17T17:31:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T17:31:43.267000+00:00,5,flagged
+compromised-scada,2023-03-17T17:31:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T17:31:43.268000+00:00,5,flagged
+compromised-scada,2023-03-17T17:31:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T17:31:43.268000+00:00,11225,flagged
+compromised-scada,2023-03-17T17:59:00+00:00,Brute force or specific coil. Address: 1,2198,185.175.0.5,verified,2023-03-17T17:59:43.271000+00:00,5,flagged
+compromised-scada,2023-03-17T18:00:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T18:00:58.897000+00:00,5,flagged
+compromised-scada,2023-03-17T18:00:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T18:00:59.008000+00:00,5,flagged
+compromised-scada,2023-03-17T18:00:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T18:00:59.009000+00:00,5,flagged
+compromised-scada,2023-03-17T18:00:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T18:00:59.009000+00:00,10551,flagged
+compromised-scada,2023-03-17T18:00:00+00:00,Brute force or specific coil. Address: 1,1927,185.175.0.5,verified,2023-03-17T18:00:00.073000+00:00,5,flagged
+compromised-scada,2023-03-17T18:16:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-17T18:16:59.011000+00:00,5,flagged
+compromised-scada,2023-03-17T18:16:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-17T18:16:59.012000+00:00,5,flagged
+compromised-scada,2023-03-17T18:16:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-17T18:16:59.012000+00:00,5,flagged
+compromised-scada,2023-03-17T18:16:00+00:00,Replay,5,185.175.0.4,verified,2023-03-17T18:16:59.012000+00:00,10552,flagged
+compromised-scada,2023-03-17T18:21:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T18:21:02.517000+00:00,0,flagged
+compromised-scada,2023-03-17T18:45:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T18:45:59.026000+00:00,0,flagged
+compromised-scada,2023-03-17T18:46:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T18:46:02.543000+00:00,0,flagged
+compromised-scada,2023-03-17T18:46:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T18:46:02.536000+00:00,0,flagged
+compromised-scada,2023-03-17T19:06:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-17T19:06:02.545000+00:00,0,flagged
+compromised-scada,2023-03-17T19:14:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T19:14:59.046000+00:00,0,flagged
+compromised-scada,2023-03-17T19:14:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T19:14:59.035000+00:00,0,flagged
+compromised-scada,2023-03-17T19:29:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-17T19:29:02.553000+00:00,5,flagged
+compromised-scada,2023-03-17T19:29:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-17T19:29:02.561000+00:00,5,flagged
+compromised-scada,2023-03-17T19:29:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-17T19:29:02.562000+00:00,5,flagged
+compromised-scada,2023-03-17T19:29:00+00:00,Replay,5,185.175.0.5,verified,2023-03-17T19:29:02.562000+00:00,11230,flagged
+compromised-scada,2023-03-17T19:38:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-17T19:38:59.047000+00:00,0,flagged
+compromised-scada,2023-03-17T19:48:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-17T19:48:02.564000+00:00,0,flagged
+compromised-scada,2023-03-17T19:55:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T19:55:59.049000+00:00,0,flagged
+compromised-scada,2023-03-17T20:05:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T20:05:02.573000+00:00,0,flagged
+compromised-scada,2023-03-17T20:15:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T20:15:59.066000+00:00,0,flagged
+compromised-scada,2023-03-17T20:15:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T20:15:59.059000+00:00,0,flagged
+compromised-scada,2023-03-17T20:27:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T20:27:02.585000+00:00,0,flagged
+compromised-scada,2023-03-17T20:38:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-17T20:38:59.068000+00:00,0,flagged
+compromised-scada,2023-03-17T20:52:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-17T20:52:02.597000+00:00,5,flagged
+compromised-scada,2023-03-17T21:02:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T21:02:59.105000+00:00,0,flagged
+compromised-scada,2023-03-17T21:02:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T21:02:59.093000+00:00,0,flagged
+compromised-scada,2023-03-17T21:17:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T21:17:22.109000+00:00,0,flagged
+compromised-scada,2023-03-17T21:25:00+00:00,Brute force or specific coil. Address: 1,1068,185.175.0.4,verified,2023-03-17T21:25:59.106000+00:00,5,flagged
+compromised-scada,2023-03-17T21:26:00+00:00,Brute force or specific coil. Address: 1,3057,185.175.0.4,verified,2023-03-17T21:26:00.809000+00:00,5,flagged
+compromised-scada,2023-03-17T21:45:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T21:45:22.120000+00:00,0,flagged
+compromised-scada,2023-03-17T21:49:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T21:49:30.715000+00:00,0,flagged
+compromised-scada,2023-03-17T21:49:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T21:49:30.704000+00:00,0,flagged
+compromised-scada,2023-03-17T22:07:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-17T22:07:22.133000+00:00,0,flagged
+compromised-scada,2023-03-17T22:17:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-17T22:17:30.728000+00:00,0,flagged
+compromised-scada,2023-03-17T22:17:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-17T22:17:30.716000+00:00,0,flagged
+compromised-scada,2023-03-17T22:28:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T22:28:22.164000+00:00,0,flagged
+compromised-scada,2023-03-17T22:28:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T22:28:22.154000+00:00,0,flagged
+compromised-scada,2023-03-17T22:34:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-17T22:34:30.729000+00:00,0,flagged
+compromised-scada,2023-03-17T22:52:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T22:52:30.731000+00:00,0,flagged
+compromised-scada,2023-03-17T22:55:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T22:55:22.177000+00:00,0,flagged
+compromised-scada,2023-03-17T22:55:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T22:55:22.167000+00:00,0,flagged
+compromised-scada,2023-03-17T23:07:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-17T23:07:30.747000+00:00,0,flagged
+compromised-scada,2023-03-17T23:20:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-17T23:20:22.195000+00:00,0,flagged
+compromised-scada,2023-03-17T23:20:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-17T23:20:22.185000+00:00,0,flagged
+compromised-scada,2023-03-17T23:31:00+00:00,Brute force or specific coil. Address: 1,3297,185.175.0.4,verified,2023-03-17T23:31:30.760000+00:00,5,flagged
+compromised-scada,2023-03-17T23:32:00+00:00,Brute force or specific coil. Address: 1,828,185.175.0.4,verified,2023-03-17T23:32:00.013000+00:00,5,flagged
+compromised-scada,2023-03-17T23:41:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-17T23:41:22.196000+00:00,0,flagged
+compromised-scada,2023-03-18T00:00:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-18T00:00:06.508000+00:00,0,flagged
+compromised-scada,2023-03-18T00:06:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T00:06:22.207000+00:00,0,flagged
+compromised-scada,2023-03-18T00:24:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-18T00:24:06.513000+00:00,5,flagged
+compromised-scada,2023-03-18T00:24:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-18T00:24:06.514000+00:00,5,flagged
+compromised-scada,2023-03-18T00:24:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-18T00:24:06.514000+00:00,5,flagged
+compromised-scada,2023-03-18T00:24:00+00:00,Replay,5,185.175.0.4,verified,2023-03-18T00:24:06.514000+00:00,10568,flagged
+compromised-scada,2023-03-18T00:25:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-18T00:25:22.212000+00:00,0,flagged
+compromised-scada,2023-03-18T00:40:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.4,verified,2023-03-18T00:40:06.517000+00:00,5,flagged
+compromised-scada,2023-03-18T00:53:00+00:00,Brute force or specific coil. Address: 1,759,185.175.0.5,verified,2023-03-18T00:53:22.229000+00:00,5,flagged
+compromised-scada,2023-03-18T00:54:00+00:00,Brute force or specific coil. Address: 1,3366,185.175.0.5,verified,2023-03-18T00:54:00.297000+00:00,5,flagged
+compromised-scada,2023-03-18T01:06:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-18T01:06:38.137000+00:00,0,flagged
+compromised-scada,2023-03-18T01:16:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T01:16:26.678000+00:00,0,flagged
+compromised-scada,2023-03-18T01:25:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-18T01:25:38.152000+00:00,5,flagged
+compromised-scada,2023-03-18T01:25:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-18T01:25:38.152000+00:00,5,flagged
+compromised-scada,2023-03-18T01:25:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-18T01:25:38.153000+00:00,5,flagged
+compromised-scada,2023-03-18T01:25:00+00:00,Replay,5,185.175.0.4,verified,2023-03-18T01:25:38.153000+00:00,10571,flagged
+compromised-scada,2023-03-18T01:37:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-18T01:37:26.687000+00:00,5,flagged
+compromised-scada,2023-03-18T01:44:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-18T01:44:38.155000+00:00,0,flagged
+compromised-scada,2023-03-18T01:59:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T01:59:48.451000+00:00,0,flagged
+compromised-scada,2023-03-18T02:06:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-18T02:06:38.160000+00:00,0,flagged
+compromised-scada,2023-03-18T02:21:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-18T02:21:38.166000+00:00,5,flagged
+compromised-scada,2023-03-18T02:21:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-18T02:21:38.167000+00:00,5,flagged
+compromised-scada,2023-03-18T02:21:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-18T02:21:38.167000+00:00,5,flagged
+compromised-scada,2023-03-18T02:21:00+00:00,Replay,5,185.175.0.4,verified,2023-03-18T02:21:38.167000+00:00,10574,flagged
+compromised-scada,2023-03-18T02:28:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T02:28:48.461000+00:00,0,flagged
+compromised-scada,2023-03-18T02:37:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-18T02:37:38.169000+00:00,0,flagged
+compromised-scada,2023-03-18T02:50:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T02:50:48.478000+00:00,0,flagged
+compromised-scada,2023-03-18T02:57:00+00:00,Brute force or specific coil. Address: 1,270,185.175.0.4,verified,2023-03-18T02:57:38.171000+00:00,5,flagged
+compromised-scada,2023-03-18T03:13:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T03:13:48.480000+00:00,5,flagged
+compromised-scada,2023-03-18T03:13:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T03:13:48.485000+00:00,5,flagged
+compromised-scada,2023-03-18T03:13:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T03:13:48.485000+00:00,5,flagged
+compromised-scada,2023-03-18T03:13:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T03:13:48.486000+00:00,11250,flagged
+compromised-scada,2023-03-18T03:40:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T03:40:48.488000+00:00,0,flagged
+compromised-scada,2023-03-18T04:04:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T04:04:48.490000+00:00,0,flagged
+compromised-scada,2023-03-18T04:27:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T04:27:48.492000+00:00,5,flagged
+compromised-scada,2023-03-18T04:27:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T04:27:48.492000+00:00,5,flagged
+compromised-scada,2023-03-18T04:27:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T04:27:48.492000+00:00,5,flagged
+compromised-scada,2023-03-18T04:27:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T04:27:48.493000+00:00,11253,flagged
+compromised-scada,2023-03-18T04:51:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T04:51:48.494000+00:00,0,flagged
+compromised-scada,2023-03-18T05:08:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-18T05:08:48.498000+00:00,0,flagged
+compromised-scada,2023-03-18T05:28:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T05:28:48.500000+00:00,0,flagged
+compromised-scada,2023-03-18T05:57:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T05:57:48.502000+00:00,0,flagged
+compromised-scada,2023-03-18T06:12:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T06:12:48.506000+00:00,0,flagged
+compromised-scada,2023-03-18T06:30:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T06:30:48.509000+00:00,0,flagged
+compromised-scada,2023-03-18T06:52:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-18T06:52:48.512000+00:00,0,flagged
+compromised-scada,2023-03-18T06:52:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-18T06:52:48.511000+00:00,0,flagged
+compromised-scada,2023-03-18T07:17:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T07:17:48.513000+00:00,0,flagged
+compromised-scada,2023-03-18T07:46:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T07:46:48.515000+00:00,0,flagged
+compromised-scada,2023-03-18T08:10:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T08:10:48.518000+00:00,0,flagged
+compromised-scada,2023-03-18T08:32:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-18T08:32:48.523000+00:00,0,flagged
+compromised-scada,2023-03-18T08:32:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-18T08:32:48.521000+00:00,0,flagged
+compromised-scada,2023-03-18T08:57:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T08:57:48.524000+00:00,0,flagged
+compromised-scada,2023-03-18T09:24:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-18T09:24:48.526000+00:00,0,flagged
+compromised-scada,2023-03-18T09:49:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T09:49:48.528000+00:00,0,flagged
+compromised-scada,2023-03-18T10:17:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T10:17:48.530000+00:00,0,flagged
+compromised-scada,2023-03-18T10:38:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T10:38:48.532000+00:00,0,flagged
+compromised-scada,2023-03-18T10:58:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T10:58:48.535000+00:00,0,flagged
+compromised-scada,2023-03-18T11:18:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-18T11:18:48.538000+00:00,0,flagged
+compromised-scada,2023-03-18T11:18:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-18T11:18:48.537000+00:00,0,flagged
+compromised-scada,2023-03-18T11:38:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T11:38:48.539000+00:00,0,flagged
+compromised-scada,2023-03-18T11:57:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-18T11:57:48.542000+00:00,0,flagged
+compromised-scada,2023-03-18T11:57:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-18T11:57:48.541000+00:00,0,flagged
+compromised-scada,2023-03-18T12:14:00+00:00,Brute force or specific coil. Address: 1,521,185.175.0.5,verified,2023-03-18T12:14:48.543000+00:00,5,flagged
+compromised-scada,2023-03-18T12:15:00+00:00,Brute force or specific coil. Address: 1,3604,185.175.0.5,verified,2023-03-18T12:15:00.009000+00:00,5,flagged
+compromised-scada,2023-03-18T12:41:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T12:41:51.535000+00:00,5,flagged
+compromised-scada,2023-03-18T12:41:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T12:41:51.536000+00:00,5,flagged
+compromised-scada,2023-03-18T12:41:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T12:41:51.537000+00:00,5,flagged
+compromised-scada,2023-03-18T12:41:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T12:41:51.538000+00:00,11275,flagged
+compromised-scada,2023-03-18T13:04:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T13:04:51.542000+00:00,5,flagged
+compromised-scada,2023-03-18T13:04:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T13:04:51.542000+00:00,5,flagged
+compromised-scada,2023-03-18T13:04:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T13:04:51.543000+00:00,5,flagged
+compromised-scada,2023-03-18T13:04:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T13:04:51.543000+00:00,11276,flagged
+compromised-scada,2023-03-18T13:23:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T13:23:51.545000+00:00,0,flagged
+compromised-scada,2023-03-18T13:44:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-18T13:44:51.549000+00:00,0,flagged
+compromised-scada,2023-03-18T13:59:00+00:00,Brute force or specific coil. Address: 1,262,185.175.0.5,verified,2023-03-18T13:59:51.550000+00:00,5,flagged
+compromised-scada,2023-03-18T14:00:00+00:00,Brute force or specific coil. Address: 1,3731,185.175.0.5,verified,2023-03-18T14:00:00.777000+00:00,5,flagged
+compromised-scada,2023-03-18T14:01:00+00:00,Brute force or specific coil. Address: 1,132,185.175.0.5,verified,2023-03-18T14:01:00.429000+00:00,5,flagged
+compromised-scada,2023-03-18T14:25:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-18T14:25:04.562000+00:00,0,flagged
+compromised-scada,2023-03-18T14:25:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-18T14:25:04.557000+00:00,0,flagged
+compromised-scada,2023-03-18T14:44:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T14:44:04.562000+00:00,0,flagged
+compromised-scada,2023-03-18T15:03:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-18T15:03:04.572000+00:00,0,flagged
+compromised-scada,2023-03-18T15:28:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-18T15:28:04.583000+00:00,0,flagged
+compromised-scada,2023-03-18T15:48:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-18T15:48:04.605000+00:00,0,flagged
+compromised-scada,2023-03-18T15:48:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-18T15:48:04.598000+00:00,0,flagged
+compromised-scada,2023-03-18T16:07:00+00:00,Brute force or specific coil. Address: 1,1840,185.175.0.5,verified,2023-03-18T16:07:04.606000+00:00,5,flagged
+compromised-scada,2023-03-18T16:08:00+00:00,Brute force or specific coil. Address: 1,2285,185.175.0.5,verified,2023-03-18T16:08:00.013000+00:00,5,flagged
+compromised-scada,2023-03-18T16:31:00+00:00,Brute force or specific coil. Address: 1,1743,185.175.0.5,verified,2023-03-18T16:31:17.107000+00:00,5,flagged
+compromised-scada,2023-03-18T16:32:00+00:00,Brute force or specific coil. Address: 1,2382,185.175.0.5,verified,2023-03-18T16:32:00.365000+00:00,5,flagged
+compromised-scada,2023-03-18T16:56:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-18T16:56:19.649000+00:00,0,flagged
+compromised-scada,2023-03-18T16:56:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-18T16:56:19.639000+00:00,0,flagged
+compromised-scada,2023-03-18T17:19:00+00:00,Brute force or specific coil. Address: 1,1115,185.175.0.5,verified,2023-03-18T17:19:19.650000+00:00,5,flagged
+compromised-scada,2023-03-18T17:20:00+00:00,Brute force or specific coil. Address: 1,2306,185.175.0.5,verified,2023-03-18T17:20:00.905000+00:00,5,flagged
+compromised-scada,2023-03-18T17:21:00+00:00,Brute force or specific coil. Address: 1,704,185.175.0.5,verified,2023-03-18T17:21:00.944000+00:00,5,flagged
+compromised-scada,2023-03-18T17:47:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-18T17:47:08.402000+00:00,0,flagged
+compromised-scada,2023-03-18T18:08:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T18:08:08.412000+00:00,0,flagged
+compromised-scada,2023-03-18T18:32:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T18:32:08.427000+00:00,0,flagged
+compromised-scada,2023-03-18T18:52:00+00:00,Brute force or specific coil. Address: 1,2886,185.175.0.5,verified,2023-03-18T18:52:08.444000+00:00,5,flagged
+compromised-scada,2023-03-18T18:53:00+00:00,Brute force or specific coil. Address: 1,1239,185.175.0.5,verified,2023-03-18T18:53:00.909000+00:00,5,flagged
+compromised-scada,2023-03-18T19:22:00+00:00,Brute force or specific coil. Address: 1,1650,185.175.0.5,verified,2023-03-18T19:22:24.825000+00:00,5,flagged
+compromised-scada,2023-03-18T19:23:00+00:00,Brute force or specific coil. Address: 1,2475,185.175.0.5,verified,2023-03-18T19:23:00.169000+00:00,5,flagged
+compromised-scada,2023-03-18T19:52:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T19:52:44.972000+00:00,0,flagged
+compromised-scada,2023-03-18T20:18:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T20:18:44.984000+00:00,5,flagged
+compromised-scada,2023-03-18T20:18:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T20:18:44.996000+00:00,5,flagged
+compromised-scada,2023-03-18T20:18:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T20:18:44.996000+00:00,5,flagged
+compromised-scada,2023-03-18T20:18:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T20:18:44.996000+00:00,11295,flagged
+compromised-scada,2023-03-18T20:35:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T20:35:44.998000+00:00,0,flagged
+compromised-scada,2023-03-18T20:57:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T20:57:45.021000+00:00,5,flagged
+compromised-scada,2023-03-18T20:57:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T20:57:45.029000+00:00,5,flagged
+compromised-scada,2023-03-18T20:57:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T20:57:45.030000+00:00,5,flagged
+compromised-scada,2023-03-18T20:57:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T20:57:45.031000+00:00,11297,flagged
+compromised-scada,2023-03-18T21:26:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T21:26:45.035000+00:00,5,flagged
+compromised-scada,2023-03-18T21:26:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T21:26:45.044000+00:00,5,flagged
+compromised-scada,2023-03-18T21:26:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T21:26:45.045000+00:00,5,flagged
+compromised-scada,2023-03-18T21:26:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T21:26:45.045000+00:00,11298,flagged
+compromised-scada,2023-03-18T21:41:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T21:41:45.047000+00:00,0,flagged
+compromised-scada,2023-03-18T22:01:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-18T22:01:45.059000+00:00,0,flagged
+compromised-scada,2023-03-18T22:25:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-18T22:25:45.084000+00:00,0,flagged
+compromised-scada,2023-03-18T22:54:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-18T22:54:45.099000+00:00,0,flagged
+compromised-scada,2023-03-18T23:14:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T23:14:45.119000+00:00,5,flagged
+compromised-scada,2023-03-18T23:14:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T23:14:45.132000+00:00,5,flagged
+compromised-scada,2023-03-18T23:14:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T23:14:45.133000+00:00,5,flagged
+compromised-scada,2023-03-18T23:14:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T23:14:45.133000+00:00,11303,flagged
+compromised-scada,2023-03-18T23:43:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-18T23:43:45.135000+00:00,5,flagged
+compromised-scada,2023-03-18T23:43:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-18T23:43:45.141000+00:00,5,flagged
+compromised-scada,2023-03-18T23:43:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-18T23:43:45.142000+00:00,5,flagged
+compromised-scada,2023-03-18T23:43:00+00:00,Replay,5,185.175.0.5,verified,2023-03-18T23:43:45.142000+00:00,11304,flagged
+compromised-scada,2023-03-19T00:06:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T00:06:45.145000+00:00,0,flagged
+compromised-scada,2023-03-19T00:28:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T00:28:45.148000+00:00,5,flagged
+compromised-scada,2023-03-19T00:28:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T00:28:45.148000+00:00,5,flagged
+compromised-scada,2023-03-19T00:28:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T00:28:45.148000+00:00,5,flagged
+compromised-scada,2023-03-19T00:28:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T00:28:45.149000+00:00,11306,flagged
+compromised-scada,2023-03-19T00:46:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T00:46:45.150000+00:00,5,flagged
+compromised-scada,2023-03-19T00:46:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T00:46:45.150000+00:00,5,flagged
+compromised-scada,2023-03-19T00:46:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T00:46:45.151000+00:00,5,flagged
+compromised-scada,2023-03-19T00:46:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T00:46:45.151000+00:00,11307,flagged
+compromised-scada,2023-03-19T01:15:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T01:15:45.153000+00:00,0,flagged
+compromised-scada,2023-03-19T01:35:00+00:00,Brute force or specific coil. Address: 1,1272,185.175.0.5,verified,2023-03-19T01:35:45.155000+00:00,5,flagged
+compromised-scada,2023-03-19T01:36:00+00:00,Brute force or specific coil. Address: 1,2853,185.175.0.5,verified,2023-03-19T01:36:00.045000+00:00,5,flagged
+compromised-scada,2023-03-19T01:55:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T01:55:55.098000+00:00,0,flagged
+compromised-scada,2023-03-19T02:15:00+00:00,Brute force or specific coil. Address: 1,339,185.175.0.5,verified,2023-03-19T02:15:55.100000+00:00,5,flagged
+compromised-scada,2023-03-19T02:16:00+00:00,Brute force or specific coil. Address: 1,3786,185.175.0.5,verified,2023-03-19T02:16:00.329000+00:00,5,flagged
+compromised-scada,2023-03-19T02:38:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T02:38:57.810000+00:00,5,flagged
+compromised-scada,2023-03-19T02:38:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T02:38:57.810000+00:00,5,flagged
+compromised-scada,2023-03-19T02:38:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T02:38:57.811000+00:00,5,flagged
+compromised-scada,2023-03-19T02:38:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T02:38:57.811000+00:00,11312,flagged
+compromised-scada,2023-03-19T03:01:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-19T03:01:57.813000+00:00,0,flagged
+compromised-scada,2023-03-19T03:02:00+00:00,Brute force or specific coil. Address: 1,154,185.175.0.4,verified,2023-03-19T03:02:59.668000+00:00,5,flagged
+compromised-scada,2023-03-19T03:02:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T03:02:50.979000+00:00,0,flagged
+compromised-scada,2023-03-19T03:02:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T03:02:50.971000+00:00,0,flagged
+compromised-scada,2023-03-19T03:03:00+00:00,Brute force or specific coil. Address: 1,3971,185.175.0.4,verified,2023-03-19T03:03:00.002000+00:00,5,flagged
+compromised-scada,2023-03-19T03:23:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T03:23:14.364000+00:00,0,flagged
+compromised-scada,2023-03-19T03:23:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-19T03:23:50.982000+00:00,0,flagged
+compromised-scada,2023-03-19T03:24:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T03:24:57.814000+00:00,0,flagged
+compromised-scada,2023-03-19T03:40:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T03:40:57.816000+00:00,0,flagged
+compromised-scada,2023-03-19T03:45:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T03:45:14.383000+00:00,5,flagged
+compromised-scada,2023-03-19T03:45:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T03:45:14.384000+00:00,5,flagged
+compromised-scada,2023-03-19T03:45:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T03:45:14.384000+00:00,5,flagged
+compromised-scada,2023-03-19T03:45:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T03:45:14.385000+00:00,36013,flagged
+compromised-scada,2023-03-19T03:48:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-19T03:48:50.992000+00:00,5,flagged
+compromised-scada,2023-03-19T03:48:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-19T03:48:50.994000+00:00,5,flagged
+compromised-scada,2023-03-19T03:48:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-19T03:48:50.995000+00:00,5,flagged
+compromised-scada,2023-03-19T03:48:00+00:00,Replay,5,185.175.0.8,verified,2023-03-19T03:48:50.996000+00:00,23914,flagged
+compromised-scada,2023-03-19T04:08:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T04:08:57.818000+00:00,5,flagged
+compromised-scada,2023-03-19T04:08:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T04:08:57.819000+00:00,5,flagged
+compromised-scada,2023-03-19T04:08:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T04:08:57.819000+00:00,5,flagged
+compromised-scada,2023-03-19T04:08:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T04:08:57.820000+00:00,11316,flagged
+compromised-scada,2023-03-19T04:09:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-19T04:09:51.002000+00:00,0,flagged
+compromised-scada,2023-03-19T04:10:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.4,verified,2023-03-19T04:10:14.388000+00:00,5,flagged
+compromised-scada,2023-03-19T04:29:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-19T04:29:51.006000+00:00,0,flagged
+compromised-scada,2023-03-19T04:34:00+00:00,Brute force or specific coil. Address: 1,424,185.175.0.5,verified,2023-03-19T04:34:57.821000+00:00,5,flagged
+compromised-scada,2023-03-19T04:35:00+00:00,Brute force or specific coil. Address: 1,1546,185.175.0.5,verified,2023-03-19T04:35:00.137000+00:00,5,flagged
+compromised-scada,2023-03-19T04:36:00+00:00,Brute force or specific coil. Address: 1,2155,185.175.0.5,verified,2023-03-19T04:36:00.010000+00:00,5,flagged
+compromised-scada,2023-03-19T04:37:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-19T04:37:29.200000+00:00,0,flagged
+compromised-scada,2023-03-19T04:51:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-19T04:51:51.023000+00:00,0,flagged
+compromised-scada,2023-03-19T04:58:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-19T04:58:29.209000+00:00,0,flagged
+compromised-scada,2023-03-19T05:03:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T05:03:36.765000+00:00,5,flagged
+compromised-scada,2023-03-19T05:03:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T05:03:36.765000+00:00,5,flagged
+compromised-scada,2023-03-19T05:03:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T05:03:36.766000+00:00,5,flagged
+compromised-scada,2023-03-19T05:03:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T05:03:36.766000+00:00,11318,flagged
+compromised-scada,2023-03-19T05:08:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-19T05:08:51.046000+00:00,0,flagged
+compromised-scada,2023-03-19T05:20:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T05:20:36.769000+00:00,0,flagged
+compromised-scada,2023-03-19T05:24:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T05:24:29.221000+00:00,0,flagged
+compromised-scada,2023-03-19T05:30:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-19T05:30:51.052000+00:00,0,flagged
+compromised-scada,2023-03-19T05:48:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-19T05:48:36.775000+00:00,0,flagged
+compromised-scada,2023-03-19T05:49:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T05:49:29.223000+00:00,0,flagged
+compromised-scada,2023-03-19T05:57:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-19T05:57:51.055000+00:00,0,flagged
+compromised-scada,2023-03-19T06:04:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T06:04:36.777000+00:00,5,flagged
+compromised-scada,2023-03-19T06:04:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T06:04:36.779000+00:00,5,flagged
+compromised-scada,2023-03-19T06:04:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T06:04:36.780000+00:00,5,flagged
+compromised-scada,2023-03-19T06:04:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T06:04:36.781000+00:00,11321,flagged
+compromised-scada,2023-03-19T06:13:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-19T06:13:29.242000+00:00,0,flagged
+compromised-scada,2023-03-19T06:13:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T06:13:51.074000+00:00,0,flagged
+compromised-scada,2023-03-19T06:13:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T06:13:51.073000+00:00,0,flagged
+compromised-scada,2023-03-19T06:30:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-19T06:30:29.244000+00:00,0,flagged
+compromised-scada,2023-03-19T06:32:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-19T06:32:36.785000+00:00,0,flagged
+compromised-scada,2023-03-19T06:32:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T06:32:51.082000+00:00,0,flagged
+compromised-scada,2023-03-19T06:32:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T06:32:51.080000+00:00,0,flagged
+compromised-scada,2023-03-19T06:46:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T06:46:29.274000+00:00,0,flagged
+compromised-scada,2023-03-19T06:46:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T06:46:29.263000+00:00,0,flagged
+compromised-scada,2023-03-19T06:51:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T06:51:36.793000+00:00,0,flagged
+compromised-scada,2023-03-19T06:58:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-19T06:58:51.085000+00:00,0,flagged
+compromised-scada,2023-03-19T07:03:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-19T07:03:29.289000+00:00,0,flagged
+compromised-scada,2023-03-19T07:14:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-19T07:14:36.830000+00:00,0,flagged
+compromised-scada,2023-03-19T07:14:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-19T07:14:36.820000+00:00,0,flagged
+compromised-scada,2023-03-19T07:18:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-19T07:18:51.105000+00:00,0,flagged
+compromised-scada,2023-03-19T07:28:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T07:28:29.301000+00:00,5,flagged
+compromised-scada,2023-03-19T07:28:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T07:28:29.302000+00:00,5,flagged
+compromised-scada,2023-03-19T07:28:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T07:28:29.303000+00:00,5,flagged
+compromised-scada,2023-03-19T07:28:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T07:28:29.304000+00:00,36023,flagged
+compromised-scada,2023-03-19T07:31:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T07:31:36.837000+00:00,0,flagged
+compromised-scada,2023-03-19T07:33:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-19T07:33:51.119000+00:00,0,flagged
+compromised-scada,2023-03-19T07:50:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-19T07:50:29.309000+00:00,0,flagged
+compromised-scada,2023-03-19T07:53:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-19T07:53:36.843000+00:00,5,flagged
+compromised-scada,2023-03-19T07:59:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T07:59:51.138000+00:00,0,flagged
+compromised-scada,2023-03-19T07:59:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T07:59:51.134000+00:00,0,flagged
+compromised-scada,2023-03-19T08:08:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T08:08:29.311000+00:00,5,flagged
+compromised-scada,2023-03-19T08:08:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T08:08:29.321000+00:00,5,flagged
+compromised-scada,2023-03-19T08:08:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T08:08:29.321000+00:00,5,flagged
+compromised-scada,2023-03-19T08:08:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T08:08:29.322000+00:00,36025,flagged
+compromised-scada,2023-03-19T08:08:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-19T08:08:42.257000+00:00,0,flagged
+compromised-scada,2023-03-19T08:08:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-19T08:08:42.255000+00:00,0,flagged
+compromised-scada,2023-03-19T08:25:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-19T08:25:51.142000+00:00,0,flagged
+compromised-scada,2023-03-19T08:30:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T08:30:29.332000+00:00,0,flagged
+compromised-scada,2023-03-19T08:30:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T08:30:29.330000+00:00,0,flagged
+compromised-scada,2023-03-19T08:35:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-19T08:35:42.265000+00:00,0,flagged
+compromised-scada,2023-03-19T08:49:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-19T08:49:51.158000+00:00,5,flagged
+compromised-scada,2023-03-19T08:49:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-19T08:49:51.159000+00:00,5,flagged
+compromised-scada,2023-03-19T08:49:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-19T08:49:51.160000+00:00,5,flagged
+compromised-scada,2023-03-19T08:49:00+00:00,Replay,5,185.175.0.8,verified,2023-03-19T08:49:51.160000+00:00,23928,flagged
+compromised-scada,2023-03-19T08:51:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-19T08:51:29.337000+00:00,0,flagged
+compromised-scada,2023-03-19T08:51:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T08:51:42.279000+00:00,5,flagged
+compromised-scada,2023-03-19T08:51:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T08:51:42.281000+00:00,5,flagged
+compromised-scada,2023-03-19T08:51:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T08:51:42.285000+00:00,5,flagged
+compromised-scada,2023-03-19T08:51:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T08:51:42.285000+00:00,11329,flagged
+compromised-scada,2023-03-19T09:10:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T09:10:42.287000+00:00,5,flagged
+compromised-scada,2023-03-19T09:10:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T09:10:42.303000+00:00,5,flagged
+compromised-scada,2023-03-19T09:10:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T09:10:42.304000+00:00,5,flagged
+compromised-scada,2023-03-19T09:10:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T09:10:42.304000+00:00,11330,flagged
+compromised-scada,2023-03-19T09:12:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-19T09:12:51.170000+00:00,0,flagged
+compromised-scada,2023-03-19T09:20:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-19T09:20:29.345000+00:00,0,flagged
+compromised-scada,2023-03-19T09:25:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-19T09:25:42.315000+00:00,0,flagged
+compromised-scada,2023-03-19T09:25:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-19T09:25:42.313000+00:00,0,flagged
+compromised-scada,2023-03-19T09:27:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-19T09:27:51.201000+00:00,0,flagged
+compromised-scada,2023-03-19T09:42:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T09:42:29.347000+00:00,5,flagged
+compromised-scada,2023-03-19T09:42:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T09:42:29.347000+00:00,5,flagged
+compromised-scada,2023-03-19T09:42:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T09:42:29.353000+00:00,5,flagged
+compromised-scada,2023-03-19T09:42:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T09:42:29.353000+00:00,36029,flagged
+compromised-scada,2023-03-19T09:46:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-19T09:46:42.316000+00:00,0,flagged
+compromised-scada,2023-03-19T09:52:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-19T09:52:51.207000+00:00,0,flagged
+compromised-scada,2023-03-19T09:59:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T09:59:29.356000+00:00,5,flagged
+compromised-scada,2023-03-19T09:59:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T09:59:29.356000+00:00,5,flagged
+compromised-scada,2023-03-19T09:59:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T09:59:29.357000+00:00,5,flagged
+compromised-scada,2023-03-19T09:59:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T09:59:29.358000+00:00,36030,flagged
+compromised-scada,2023-03-19T10:03:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T10:03:42.321000+00:00,0,flagged
+compromised-scada,2023-03-19T10:17:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-19T10:17:51.226000+00:00,0,flagged
+compromised-scada,2023-03-19T10:25:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T10:25:29.368000+00:00,0,flagged
+compromised-scada,2023-03-19T10:25:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T10:25:29.367000+00:00,0,flagged
+compromised-scada,2023-03-19T10:31:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T10:31:42.333000+00:00,5,flagged
+compromised-scada,2023-03-19T10:31:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T10:31:42.334000+00:00,5,flagged
+compromised-scada,2023-03-19T10:31:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T10:31:42.334000+00:00,5,flagged
+compromised-scada,2023-03-19T10:31:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T10:31:42.334000+00:00,11334,flagged
+compromised-scada,2023-03-19T10:36:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-19T10:36:51.277000+00:00,5,flagged
+compromised-scada,2023-03-19T10:36:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-19T10:36:51.278000+00:00,5,flagged
+compromised-scada,2023-03-19T10:36:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-19T10:36:51.278000+00:00,5,flagged
+compromised-scada,2023-03-19T10:36:00+00:00,Replay,5,185.175.0.8,verified,2023-03-19T10:36:51.283000+00:00,23933,flagged
+compromised-scada,2023-03-19T10:50:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T10:50:42.345000+00:00,0,flagged
+compromised-scada,2023-03-19T10:54:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T10:54:29.381000+00:00,0,flagged
+compromised-scada,2023-03-19T11:03:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-19T11:03:51.289000+00:00,0,flagged
+compromised-scada,2023-03-19T11:12:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T11:12:42.351000+00:00,5,flagged
+compromised-scada,2023-03-19T11:12:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T11:12:42.409000+00:00,5,flagged
+compromised-scada,2023-03-19T11:12:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T11:12:42.409000+00:00,5,flagged
+compromised-scada,2023-03-19T11:12:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T11:12:42.409000+00:00,11336,flagged
+compromised-scada,2023-03-19T11:18:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-19T11:18:29.385000+00:00,0,flagged
+compromised-scada,2023-03-19T11:18:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T11:18:51.299000+00:00,0,flagged
+compromised-scada,2023-03-19T11:18:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T11:18:51.297000+00:00,0,flagged
+compromised-scada,2023-03-19T11:34:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-19T11:34:42.411000+00:00,0,flagged
+compromised-scada,2023-03-19T11:42:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-19T11:42:29.401000+00:00,0,flagged
+compromised-scada,2023-03-19T11:43:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T11:43:51.307000+00:00,0,flagged
+compromised-scada,2023-03-19T11:43:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T11:43:51.303000+00:00,0,flagged
+compromised-scada,2023-03-19T11:54:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-19T11:54:42.433000+00:00,0,flagged
+compromised-scada,2023-03-19T12:08:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-19T12:08:29.420000+00:00,0,flagged
+compromised-scada,2023-03-19T12:12:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T12:12:42.481000+00:00,0,flagged
+compromised-scada,2023-03-19T12:12:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-19T12:12:51.310000+00:00,0,flagged
+compromised-scada,2023-03-19T12:27:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-19T12:27:51.325000+00:00,0,flagged
+compromised-scada,2023-03-19T12:28:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T12:28:42.486000+00:00,5,flagged
+compromised-scada,2023-03-19T12:28:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T12:28:42.487000+00:00,5,flagged
+compromised-scada,2023-03-19T12:28:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T12:28:42.488000+00:00,5,flagged
+compromised-scada,2023-03-19T12:28:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T12:28:42.488000+00:00,11340,flagged
+compromised-scada,2023-03-19T12:36:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T12:36:29.441000+00:00,0,flagged
+compromised-scada,2023-03-19T12:45:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-19T12:45:51.345000+00:00,5,flagged
+compromised-scada,2023-03-19T12:45:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-19T12:45:51.346000+00:00,5,flagged
+compromised-scada,2023-03-19T12:45:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-19T12:45:51.347000+00:00,5,flagged
+compromised-scada,2023-03-19T12:45:00+00:00,Replay,5,185.175.0.8,verified,2023-03-19T12:45:51.347000+00:00,23939,flagged
+compromised-scada,2023-03-19T12:52:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T12:52:42.497000+00:00,0,flagged
+compromised-scada,2023-03-19T13:02:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-19T13:02:29.445000+00:00,0,flagged
+compromised-scada,2023-03-19T13:02:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-19T13:02:51.353000+00:00,0,flagged
+compromised-scada,2023-03-19T13:16:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T13:16:42.513000+00:00,5,flagged
+compromised-scada,2023-03-19T13:16:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T13:16:42.517000+00:00,5,flagged
+compromised-scada,2023-03-19T13:16:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T13:16:42.517000+00:00,5,flagged
+compromised-scada,2023-03-19T13:16:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T13:16:42.517000+00:00,11342,flagged
+compromised-scada,2023-03-19T13:19:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T13:19:29.451000+00:00,0,flagged
+compromised-scada,2023-03-19T13:19:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T13:19:29.450000+00:00,0,flagged
+compromised-scada,2023-03-19T13:23:00+00:00,Brute force or specific coil. Address: 1,1794,185.175.0.8,verified,2023-03-19T13:23:51.374000+00:00,5,flagged
+compromised-scada,2023-03-19T13:24:00+00:00,Brute force or specific coil. Address: 1,2331,185.175.0.8,verified,2023-03-19T13:24:00.109000+00:00,5,flagged
+compromised-scada,2023-03-19T13:38:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-19T13:38:42.519000+00:00,5,flagged
+compromised-scada,2023-03-19T13:40:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T13:40:26.002000+00:00,0,flagged
+compromised-scada,2023-03-19T13:40:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T13:40:26.001000+00:00,0,flagged
+compromised-scada,2023-03-19T13:45:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-19T13:45:29.457000+00:00,0,flagged
+compromised-scada,2023-03-19T14:01:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T14:01:26.010000+00:00,0,flagged
+compromised-scada,2023-03-19T14:01:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T14:01:26.003000+00:00,0,flagged
+compromised-scada,2023-03-19T14:03:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-19T14:03:56.805000+00:00,0,flagged
+compromised-scada,2023-03-19T14:04:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T14:04:29.482000+00:00,0,flagged
+compromised-scada,2023-03-19T14:04:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T14:04:29.477000+00:00,0,flagged
+compromised-scada,2023-03-19T14:19:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T14:19:56.817000+00:00,0,flagged
+compromised-scada,2023-03-19T14:20:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.8,verified,2023-03-19T14:20:26.011000+00:00,5,flagged
+compromised-scada,2023-03-19T14:23:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T14:23:29.497000+00:00,0,flagged
+compromised-scada,2023-03-19T14:23:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T14:23:29.485000+00:00,0,flagged
+compromised-scada,2023-03-19T14:35:00+00:00,Brute force or specific coil. Address: 1,1524,185.175.0.8,verified,2023-03-19T14:35:56.280000+00:00,5,flagged
+compromised-scada,2023-03-19T14:36:00+00:00,Brute force or specific coil. Address: 1,2601,185.175.0.8,verified,2023-03-19T14:36:00.001000+00:00,5,flagged
+compromised-scada,2023-03-19T14:37:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T14:37:56.828000+00:00,0,flagged
+compromised-scada,2023-03-19T14:46:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T14:46:29.498000+00:00,0,flagged
+compromised-scada,2023-03-19T14:58:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-19T14:58:56.858000+00:00,0,flagged
+compromised-scada,2023-03-19T14:58:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-19T14:58:56.849000+00:00,0,flagged
+compromised-scada,2023-03-19T15:05:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T15:05:29.033000+00:00,0,flagged
+compromised-scada,2023-03-19T15:05:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T15:05:29.011000+00:00,0,flagged
+compromised-scada,2023-03-19T15:11:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-19T15:11:29.515000+00:00,0,flagged
+compromised-scada,2023-03-19T15:14:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T15:14:56.859000+00:00,0,flagged
+compromised-scada,2023-03-19T15:21:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T15:21:29.045000+00:00,0,flagged
+compromised-scada,2023-03-19T15:21:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T15:21:29.034000+00:00,0,flagged
+compromised-scada,2023-03-19T15:29:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T15:29:56.876000+00:00,0,flagged
+compromised-scada,2023-03-19T15:31:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-19T15:31:29.527000+00:00,0,flagged
+compromised-scada,2023-03-19T15:43:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-19T15:43:29.049000+00:00,0,flagged
+compromised-scada,2023-03-19T15:52:00+00:00,Brute force or specific coil. Address: 1,2905,185.175.0.4,verified,2023-03-19T15:52:29.541000+00:00,5,flagged
+compromised-scada,2023-03-19T15:53:00+00:00,Brute force or specific coil. Address: 1,1220,185.175.0.4,verified,2023-03-19T15:53:00.681000+00:00,5,flagged
+compromised-scada,2023-03-19T15:54:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T15:54:56.887000+00:00,0,flagged
+compromised-scada,2023-03-19T16:11:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-19T16:11:29.079000+00:00,0,flagged
+compromised-scada,2023-03-19T16:11:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-19T16:11:29.061000+00:00,0,flagged
+compromised-scada,2023-03-19T16:13:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T16:13:20.466000+00:00,5,flagged
+compromised-scada,2023-03-19T16:13:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T16:13:20.478000+00:00,5,flagged
+compromised-scada,2023-03-19T16:13:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T16:13:20.479000+00:00,5,flagged
+compromised-scada,2023-03-19T16:13:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T16:13:20.479000+00:00,36046,flagged
+compromised-scada,2023-03-19T16:14:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T16:14:56.908000+00:00,0,flagged
+compromised-scada,2023-03-19T16:34:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-19T16:34:20.484000+00:00,0,flagged
+compromised-scada,2023-03-19T16:35:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T16:35:56.929000+00:00,5,flagged
+compromised-scada,2023-03-19T16:35:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T16:35:56.941000+00:00,5,flagged
+compromised-scada,2023-03-19T16:35:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T16:35:56.943000+00:00,5,flagged
+compromised-scada,2023-03-19T16:35:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T16:35:56.943000+00:00,11352,flagged
+compromised-scada,2023-03-19T16:36:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.8,verified,2023-03-19T16:36:29.081000+00:00,5,flagged
+compromised-scada,2023-03-19T16:57:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-19T16:57:20.489000+00:00,0,flagged
+compromised-scada,2023-03-19T17:02:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-19T17:02:57.813000+00:00,5,flagged
+compromised-scada,2023-03-19T17:02:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-19T17:02:57.912000+00:00,5,flagged
+compromised-scada,2023-03-19T17:02:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-19T17:02:57.913000+00:00,5,flagged
+compromised-scada,2023-03-19T17:02:00+00:00,Replay,5,185.175.0.8,verified,2023-03-19T17:02:57.913000+00:00,23951,flagged
+compromised-scada,2023-03-19T17:04:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T17:04:56.945000+00:00,0,flagged
+compromised-scada,2023-03-19T17:14:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T17:14:20.503000+00:00,0,flagged
+compromised-scada,2023-03-19T17:23:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T17:23:56.964000+00:00,0,flagged
+compromised-scada,2023-03-19T17:25:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-19T17:25:57.929000+00:00,0,flagged
+compromised-scada,2023-03-19T17:39:00+00:00,Length manipulation,4,185.175.0.4,verified,2023-03-19T17:39:20.530000+00:00,0,flagged
+compromised-scada,2023-03-19T17:47:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-19T17:47:57.943000+00:00,0,flagged
+compromised-scada,2023-03-19T17:52:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T17:52:56.977000+00:00,5,flagged
+compromised-scada,2023-03-19T17:52:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T17:52:56.986000+00:00,5,flagged
+compromised-scada,2023-03-19T17:52:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T17:52:56.988000+00:00,5,flagged
+compromised-scada,2023-03-19T17:52:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T17:52:56.989000+00:00,11355,flagged
+compromised-scada,2023-03-19T18:01:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T18:01:20.556000+00:00,0,flagged
+compromised-scada,2023-03-19T18:01:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T18:01:20.542000+00:00,0,flagged
+compromised-scada,2023-03-19T18:02:00+00:00,Brute force or specific coil. Address: 1,1166,185.175.0.8,verified,2023-03-19T18:02:57.956000+00:00,5,flagged
+compromised-scada,2023-03-19T18:03:00+00:00,Brute force or specific coil. Address: 1,1430,185.175.0.8,verified,2023-03-19T18:03:00.845000+00:00,5,flagged
+compromised-scada,2023-03-19T18:16:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-19T18:16:20.558000+00:00,0,flagged
+compromised-scada,2023-03-19T18:16:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T18:16:56.994000+00:00,5,flagged
+compromised-scada,2023-03-19T18:16:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T18:16:57.006000+00:00,5,flagged
+compromised-scada,2023-03-19T18:16:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T18:16:57.007000+00:00,5,flagged
+compromised-scada,2023-03-19T18:16:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T18:16:57.007000+00:00,11356,flagged
+compromised-scada,2023-03-19T18:39:00+00:00,Brute force or specific coil. Address: 1,296,185.175.0.5,verified,2023-03-19T18:39:57.010000+00:00,5,flagged
+compromised-scada,2023-03-19T18:40:00+00:00,Brute force or specific coil. Address: 1,3829,185.175.0.5,verified,2023-03-19T18:40:00.241000+00:00,5,flagged
+compromised-scada,2023-03-19T18:43:00+00:00,Recon. Range: 125,2,185.175.0.4,verified,2023-03-19T18:43:20.587000+00:00,0,flagged
+compromised-scada,2023-03-19T18:43:00+00:00,Recon. Range: 2000,2,185.175.0.4,verified,2023-03-19T18:43:20.574000+00:00,0,flagged
+compromised-scada,2023-03-19T19:02:00+00:00,Stacked Modbus Frames,4,185.175.0.4,verified,2023-03-19T19:02:20.593000+00:00,0,flagged
+compromised-scada,2023-03-19T19:03:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-19T19:03:24.789000+00:00,0,flagged
+compromised-scada,2023-03-19T19:26:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T19:26:20.601000+00:00,5,flagged
+compromised-scada,2023-03-19T19:26:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T19:26:20.608000+00:00,5,flagged
+compromised-scada,2023-03-19T19:26:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T19:26:20.608000+00:00,5,flagged
+compromised-scada,2023-03-19T19:26:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T19:26:20.609000+00:00,36055,flagged
+compromised-scada,2023-03-19T19:26:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.5,verified,2023-03-19T19:26:24.802000+00:00,5,flagged
+compromised-scada,2023-03-19T19:42:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T19:42:31.361000+00:00,5,flagged
+compromised-scada,2023-03-19T19:42:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T19:42:31.362000+00:00,5,flagged
+compromised-scada,2023-03-19T19:42:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T19:42:31.362000+00:00,5,flagged
+compromised-scada,2023-03-19T19:42:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T19:42:31.363000+00:00,11360,flagged
+compromised-scada,2023-03-19T19:53:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.4,verified,2023-03-19T19:53:20.610000+00:00,5,flagged
+compromised-scada,2023-03-19T19:53:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.4,verified,2023-03-19T19:53:20.626000+00:00,5,flagged
+compromised-scada,2023-03-19T19:53:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.4,verified,2023-03-19T19:53:20.627000+00:00,5,flagged
+compromised-scada,2023-03-19T19:53:00+00:00,Replay,5,185.175.0.4,verified,2023-03-19T19:53:20.627000+00:00,36056,flagged
+compromised-scada,2023-03-19T20:05:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-19T20:05:31.366000+00:00,0,flagged
+compromised-scada,2023-03-19T20:21:00+00:00,Query Flooding,4,185.175.0.4,verified,2023-03-19T20:21:20.630000+00:00,0,flagged
+compromised-scada,2023-03-19T20:31:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-19T20:31:31.376000+00:00,0,flagged
+compromised-scada,2023-03-19T20:38:00+00:00,Brute force or specific coil. Address: 1,3883,185.175.0.4,verified,2023-03-19T20:38:20.649000+00:00,5,flagged
+compromised-scada,2023-03-19T20:39:00+00:00,Brute force or specific coil. Address: 1,119,185.175.0.4,verified,2023-03-19T20:39:00.173000+00:00,5,flagged
+compromised-scada,2023-03-19T20:49:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T20:49:31.385000+00:00,5,flagged
+compromised-scada,2023-03-19T20:49:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T20:49:31.393000+00:00,5,flagged
+compromised-scada,2023-03-19T20:49:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T20:49:31.393000+00:00,5,flagged
+compromised-scada,2023-03-19T20:49:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T20:49:31.393000+00:00,11363,flagged
+compromised-scada,2023-03-19T21:05:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-19T21:05:31.396000+00:00,5,flagged
+compromised-scada,2023-03-19T21:05:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-19T21:05:31.403000+00:00,5,flagged
+compromised-scada,2023-03-19T21:05:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-19T21:05:31.404000+00:00,5,flagged
+compromised-scada,2023-03-19T21:05:00+00:00,Replay,5,185.175.0.5,verified,2023-03-19T21:05:31.404000+00:00,11364,flagged
+compromised-scada,2023-03-19T21:30:00+00:00,Brute force or specific coil. Address: 1,1491,185.175.0.5,verified,2023-03-19T21:30:31.406000+00:00,5,flagged
+compromised-scada,2023-03-19T21:31:00+00:00,Brute force or specific coil. Address: 1,2634,185.175.0.5,verified,2023-03-19T21:31:00.521000+00:00,5,flagged
+compromised-scada,2023-03-19T21:49:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-19T21:49:41.015000+00:00,0,flagged
+compromised-scada,2023-03-19T22:06:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-19T22:06:41.034000+00:00,0,flagged
+compromised-scada,2023-03-19T22:35:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-19T22:35:41.052000+00:00,0,flagged
+compromised-scada,2023-03-19T23:01:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-19T23:01:41.183000+00:00,0,flagged
+compromised-scada,2023-03-19T23:01:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-19T23:01:41.172000+00:00,0,flagged
+compromised-scada,2023-03-19T23:20:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-19T23:20:41.196000+00:00,0,flagged
+compromised-scada,2023-03-19T23:20:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-19T23:20:41.184000+00:00,0,flagged
+compromised-scada,2023-03-19T23:44:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-19T23:44:41.197000+00:00,0,flagged
+compromised-scada,2023-03-20T00:06:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T00:06:41.211000+00:00,0,flagged
+compromised-scada,2023-03-20T00:24:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T00:24:41.216000+00:00,0,flagged
+compromised-scada,2023-03-20T00:42:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T00:42:41.318000+00:00,0,flagged
+compromised-scada,2023-03-20T01:04:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T01:04:41.321000+00:00,0,flagged
+compromised-scada,2023-03-20T01:20:00+00:00,Brute force or specific coil. Address: 1,430,185.175.0.5,verified,2023-03-20T01:20:41.340000+00:00,5,flagged
+compromised-scada,2023-03-20T01:21:00+00:00,Brute force or specific coil. Address: 1,3695,185.175.0.5,verified,2023-03-20T01:21:00.809000+00:00,5,flagged
+compromised-scada,2023-03-20T01:31:00+00:00,Payload injection,4,185.175.0.4,verified,2023-03-20T01:31:49.311000+00:00,0,flagged
+compromised-scada,2023-03-20T01:31:00+00:00,Brute force or specific coil. Address: 1,1933,185.175.0.8,verified,2023-03-20T01:31:55.790000+00:00,5,flagged
+compromised-scada,2023-03-20T01:32:00+00:00,Brute force or specific coil. Address: 1,2192,185.175.0.8,verified,2023-03-20T01:32:00.493000+00:00,5,flagged
+compromised-scada,2023-03-20T01:41:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T01:41:45.938000+00:00,0,flagged
+compromised-scada,2023-03-20T02:10:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T02:10:45.939000+00:00,0,flagged
+compromised-scada,2023-03-20T02:14:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-20T02:14:05.596000+00:00,0,flagged
+compromised-scada,2023-03-20T02:28:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-20T02:28:45.951000+00:00,5,flagged
+compromised-scada,2023-03-20T02:28:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-20T02:28:45.969000+00:00,5,flagged
+compromised-scada,2023-03-20T02:28:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-20T02:28:45.970000+00:00,5,flagged
+compromised-scada,2023-03-20T02:28:00+00:00,Replay,5,185.175.0.5,verified,2023-03-20T02:28:45.970000+00:00,11379,flagged
+compromised-scada,2023-03-20T02:41:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-20T02:41:05.617000+00:00,0,flagged
+compromised-scada,2023-03-20T02:47:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T02:47:45.974000+00:00,0,flagged
+compromised-scada,2023-03-20T03:02:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T03:02:45.986000+00:00,0,flagged
+compromised-scada,2023-03-20T03:09:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.8,verified,2023-03-20T03:09:05.623000+00:00,5,flagged
+compromised-scada,2023-03-20T03:24:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T03:24:45.988000+00:00,0,flagged
+compromised-scada,2023-03-20T03:37:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-20T03:37:16.735000+00:00,0,flagged
+compromised-scada,2023-03-20T03:37:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-20T03:37:16.723000+00:00,0,flagged
+compromised-scada,2023-03-20T03:43:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T03:43:45.999000+00:00,0,flagged
+compromised-scada,2023-03-20T04:01:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-20T04:01:16.748000+00:00,0,flagged
+compromised-scada,2023-03-20T04:01:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-20T04:01:16.740000+00:00,0,flagged
+compromised-scada,2023-03-20T04:05:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T04:05:46.003000+00:00,0,flagged
+compromised-scada,2023-03-20T04:24:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-20T04:24:14.971000+00:00,0,flagged
+compromised-scada,2023-03-20T04:25:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T04:25:46.012000+00:00,0,flagged
+compromised-scada,2023-03-20T04:38:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-20T04:38:00.618000+00:00,0,flagged
+compromised-scada,2023-03-20T04:53:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T04:53:46.023000+00:00,0,flagged
+compromised-scada,2023-03-20T04:58:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-20T04:58:21.766000+00:00,0,flagged
+compromised-scada,2023-03-20T05:22:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T05:22:46.045000+00:00,0,flagged
+compromised-scada,2023-03-20T05:44:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T05:44:46.055000+00:00,0,flagged
+compromised-scada,2023-03-20T06:13:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T06:13:46.056000+00:00,0,flagged
+compromised-scada,2023-03-20T06:35:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T06:35:46.066000+00:00,0,flagged
+compromised-scada,2023-03-20T06:52:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T06:52:46.078000+00:00,0,flagged
+compromised-scada,2023-03-20T07:08:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T07:08:46.190000+00:00,0,flagged
+compromised-scada,2023-03-20T07:28:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-20T07:28:46.202000+00:00,5,flagged
+compromised-scada,2023-03-20T07:28:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-20T07:28:46.214000+00:00,5,flagged
+compromised-scada,2023-03-20T07:28:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-20T07:28:46.214000+00:00,5,flagged
+compromised-scada,2023-03-20T07:28:00+00:00,Replay,5,185.175.0.5,verified,2023-03-20T07:28:46.215000+00:00,11393,flagged
+compromised-scada,2023-03-20T07:43:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T07:43:46.217000+00:00,0,flagged
+compromised-scada,2023-03-20T08:09:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T08:09:46.228000+00:00,0,flagged
+compromised-scada,2023-03-20T08:33:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T08:33:46.241000+00:00,0,flagged
+compromised-scada,2023-03-20T08:52:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T08:52:46.242000+00:00,0,flagged
+compromised-scada,2023-03-20T09:08:00+00:00,Brute force or specific coil. Address: 1,696,185.175.0.5,verified,2023-03-20T09:08:46.254000+00:00,5,flagged
+compromised-scada,2023-03-20T09:09:00+00:00,Brute force or specific coil. Address: 1,963,185.175.0.5,verified,2023-03-20T09:09:00.745000+00:00,5,flagged
+compromised-scada,2023-03-20T09:10:00+00:00,Brute force or specific coil. Address: 1,2466,185.175.0.5,verified,2023-03-20T09:10:00.169000+00:00,5,flagged
+compromised-scada,2023-03-20T09:38:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T09:38:20.557000+00:00,0,flagged
+compromised-scada,2023-03-20T10:04:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T10:04:20.574000+00:00,0,flagged
+compromised-scada,2023-03-20T10:28:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T10:28:20.591000+00:00,0,flagged
+compromised-scada,2023-03-20T10:52:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T10:52:20.592000+00:00,0,flagged
+compromised-scada,2023-03-20T11:17:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T11:17:20.604000+00:00,0,flagged
+compromised-scada,2023-03-20T11:43:00+00:00,Brute force or specific coil. Address: 1,818,185.175.0.5,verified,2023-03-20T11:43:20.606000+00:00,5,flagged
+compromised-scada,2023-03-20T11:44:00+00:00,Brute force or specific coil. Address: 1,3307,185.175.0.5,verified,2023-03-20T11:44:00.553000+00:00,5,flagged
+compromised-scada,2023-03-20T12:00:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T12:00:53.040000+00:00,0,flagged
+compromised-scada,2023-03-20T12:20:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T12:20:53.051000+00:00,0,flagged
+compromised-scada,2023-03-20T12:47:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-20T12:47:53.061000+00:00,5,flagged
+compromised-scada,2023-03-20T12:47:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-20T12:47:53.078000+00:00,5,flagged
+compromised-scada,2023-03-20T12:47:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-20T12:47:53.078000+00:00,5,flagged
+compromised-scada,2023-03-20T12:47:00+00:00,Replay,5,185.175.0.5,verified,2023-03-20T12:47:53.078000+00:00,11407,flagged
+compromised-scada,2023-03-20T13:10:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T13:10:53.080000+00:00,0,flagged
+compromised-scada,2023-03-20T13:38:00+00:00,Brute force or specific coil. Address: 1,180,185.175.0.5,verified,2023-03-20T13:38:53.086000+00:00,5,flagged
+compromised-scada,2023-03-20T13:39:00+00:00,Brute force or specific coil. Address: 1,3469,185.175.0.5,verified,2023-03-20T13:39:00.269000+00:00,5,flagged
+compromised-scada,2023-03-20T13:40:00+00:00,Brute force or specific coil. Address: 1,476,185.175.0.5,verified,2023-03-20T13:40:00.713000+00:00,5,flagged
+compromised-scada,2023-03-20T14:02:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T14:02:05.008000+00:00,0,flagged
+compromised-scada,2023-03-20T14:25:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T14:25:05.021000+00:00,0,flagged
+compromised-scada,2023-03-20T14:44:00+00:00,Brute force or specific coil. Address: 1,1192,185.175.0.5,verified,2023-03-20T14:44:05.022000+00:00,5,flagged
+compromised-scada,2023-03-20T14:45:00+00:00,Brute force or specific coil. Address: 1,2933,185.175.0.5,verified,2023-03-20T14:45:00.489000+00:00,5,flagged
+compromised-scada,2023-03-20T15:12:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T15:12:36.091000+00:00,0,flagged
+compromised-scada,2023-03-20T15:31:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T15:31:36.103000+00:00,0,flagged
+compromised-scada,2023-03-20T15:56:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T15:56:36.116000+00:00,0,flagged
+compromised-scada,2023-03-20T16:11:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T16:11:36.123000+00:00,0,flagged
+compromised-scada,2023-03-20T16:38:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T16:38:36.125000+00:00,0,flagged
+compromised-scada,2023-03-20T16:56:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T16:56:36.127000+00:00,0,flagged
+compromised-scada,2023-03-20T17:17:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-20T17:17:36.147000+00:00,0,flagged
+compromised-scada,2023-03-20T17:17:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-20T17:17:36.137000+00:00,0,flagged
+compromised-scada,2023-03-20T17:45:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-20T17:45:36.158000+00:00,0,flagged
+compromised-scada,2023-03-20T17:45:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-20T17:45:36.148000+00:00,0,flagged
+compromised-scada,2023-03-20T18:14:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-20T18:14:36.159000+00:00,5,flagged
+compromised-scada,2023-03-20T18:14:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-20T18:14:36.169000+00:00,5,flagged
+compromised-scada,2023-03-20T18:14:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-20T18:14:36.170000+00:00,5,flagged
+compromised-scada,2023-03-20T18:14:00+00:00,Replay,5,185.175.0.5,verified,2023-03-20T18:14:36.170000+00:00,11421,flagged
+compromised-scada,2023-03-20T18:29:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T18:29:36.172000+00:00,0,flagged
+compromised-scada,2023-03-20T18:48:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T18:48:36.189000+00:00,0,flagged
+compromised-scada,2023-03-20T19:09:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T19:09:36.197000+00:00,0,flagged
+compromised-scada,2023-03-20T19:25:00+00:00,Brute force or specific coil. Address: 1,497,185.175.0.5,verified,2023-03-20T19:25:36.199000+00:00,5,flagged
+compromised-scada,2023-03-20T19:26:00+00:00,Brute force or specific coil. Address: 1,3628,185.175.0.5,verified,2023-03-20T19:26:00.781000+00:00,5,flagged
+compromised-scada,2023-03-20T19:49:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T19:49:40.089000+00:00,0,flagged
+compromised-scada,2023-03-20T20:05:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T20:05:40.100000+00:00,0,flagged
+compromised-scada,2023-03-20T20:28:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T20:28:40.151000+00:00,0,flagged
+compromised-scada,2023-03-20T20:48:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-20T20:48:40.164000+00:00,0,flagged
+compromised-scada,2023-03-20T20:48:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-20T20:48:40.163000+00:00,0,flagged
+compromised-scada,2023-03-20T21:14:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-20T21:14:40.165000+00:00,0,flagged
+compromised-scada,2023-03-20T21:40:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-20T21:40:40.181000+00:00,0,flagged
+compromised-scada,2023-03-20T21:40:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-20T21:40:40.172000+00:00,0,flagged
+compromised-scada,2023-03-20T22:06:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-20T22:06:40.182000+00:00,0,flagged
+compromised-scada,2023-03-20T22:27:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-20T22:27:40.193000+00:00,5,flagged
+compromised-scada,2023-03-20T22:27:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-20T22:27:40.200000+00:00,5,flagged
+compromised-scada,2023-03-20T22:27:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-20T22:27:40.200000+00:00,5,flagged
+compromised-scada,2023-03-20T22:27:00+00:00,Replay,5,185.175.0.5,verified,2023-03-20T22:27:40.200000+00:00,11433,flagged
+compromised-scada,2023-03-20T22:54:00+00:00,Brute force or specific coil. Address: 1,1051,185.175.0.5,verified,2023-03-20T22:54:40.202000+00:00,5,flagged
+compromised-scada,2023-03-20T22:55:00+00:00,Brute force or specific coil. Address: 1,3074,185.175.0.5,verified,2023-03-20T22:55:00.813000+00:00,5,flagged
+compromised-scada,2023-03-20T23:14:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-20T23:14:43.012000+00:00,0,flagged
+compromised-scada,2023-03-20T23:29:00+00:00,Query Flooding,4,185.175.0.5,verified,2023-03-20T23:29:43.036000+00:00,0,flagged
+compromised-scada,2023-03-20T23:44:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-20T23:44:43.048000+00:00,5,flagged
+compromised-scada,2023-03-20T23:44:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-20T23:44:43.048000+00:00,5,flagged
+compromised-scada,2023-03-20T23:44:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-20T23:44:43.048000+00:00,5,flagged
+compromised-scada,2023-03-20T23:44:00+00:00,Replay,5,185.175.0.5,verified,2023-03-20T23:44:43.048000+00:00,11437,flagged
+compromised-scada,2023-03-21T03:07:00+00:00,Recon. Range: 125,2,185.175.0.8,verified,2023-03-21T03:07:40.534000+00:00,0,flagged
+compromised-scada,2023-03-21T03:07:00+00:00,Recon. Range: 2000,2,185.175.0.8,verified,2023-03-21T03:07:40.517000+00:00,0,flagged
+compromised-scada,2023-03-21T03:24:00+00:00,Brute force or specific coil. Address: 1,4125,185.175.0.8,verified,2023-03-21T03:24:40.537000+00:00,5,flagged
+compromised-scada,2023-03-21T03:42:00+00:00,Query Flooding,4,185.175.0.8,verified,2023-03-21T03:42:52.771000+00:00,0,flagged
+compromised-scada,2023-03-21T04:10:00+00:00,Length manipulation,4,185.175.0.8,verified,2023-03-21T04:10:52.776000+00:00,0,flagged
+compromised-scada,2023-03-21T04:31:00+00:00,Payload injection,4,185.175.0.8,verified,2023-03-21T04:31:52.788000+00:00,0,flagged
+compromised-scada,2023-03-21T04:58:00+00:00,Stacked Modbus Frames,4,185.175.0.8,verified,2023-03-21T04:58:52.797000+00:00,0,flagged
+compromised-scada,2023-03-21T05:13:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.8,verified,2023-03-21T05:13:52.813000+00:00,5,flagged
+compromised-scada,2023-03-21T05:13:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.8,verified,2023-03-21T05:13:52.813000+00:00,5,flagged
+compromised-scada,2023-03-21T05:13:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.8,verified,2023-03-21T05:13:52.814000+00:00,6,flagged
+compromised-scada,2023-03-21T05:13:00+00:00,Replay,5,185.175.0.8,verified,2023-03-21T05:13:52.800000+00:00,12651,flagged
+compromised-scada,2023-03-22T00:18:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-22T00:18:39.455000+00:00,0,flagged
+compromised-scada,2023-03-22T00:18:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-22T00:18:39.452000+00:00,0,flagged
+compromised-scada,2023-03-22T00:40:00+00:00,Stacked Modbus Frames,4,185.175.0.5,verified,2023-03-22T00:40:39.456000+00:00,0,flagged
+compromised-scada,2023-03-22T00:56:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-22T00:56:39.458000+00:00,0,flagged
+compromised-scada,2023-03-22T01:16:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-22T01:16:39.460000+00:00,5,flagged
+compromised-scada,2023-03-22T01:16:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-22T01:16:39.460000+00:00,5,flagged
+compromised-scada,2023-03-22T01:16:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-22T01:16:39.461000+00:00,5,flagged
+compromised-scada,2023-03-22T01:16:00+00:00,Replay,5,185.175.0.5,verified,2023-03-22T01:16:39.461000+00:00,11503,flagged
+compromised-scada,2023-03-22T01:43:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-22T01:43:39.464000+00:00,0,flagged
+compromised-scada,2023-03-22T01:43:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-22T01:43:39.463000+00:00,0,flagged
+compromised-scada,2023-03-22T02:04:00+00:00,Recon. Range: 125,2,185.175.0.5,verified,2023-03-22T02:04:39.466000+00:00,0,flagged
+compromised-scada,2023-03-22T02:04:00+00:00,Recon. Range: 2000,2,185.175.0.5,verified,2023-03-22T02:04:39.465000+00:00,0,flagged
+compromised-scada,2023-03-22T02:22:00+00:00,Length manipulation,4,185.175.0.5,verified,2023-03-22T02:22:39.468000+00:00,0,flagged
+compromised-scada,2023-03-22T02:47:00+00:00,Payload injection,4,185.175.0.5,verified,2023-03-22T02:47:39.471000+00:00,0,flagged
+compromised-scada,2023-03-22T03:12:00+00:00,Brute force or specific coil. Address: 1,1515,185.175.0.5,verified,2023-03-22T03:12:39.474000+00:00,5,flagged
+compromised-scada,2023-03-22T03:13:00+00:00,Brute force or specific coil. Address: 1,2610,185.175.0.5,verified,2023-03-22T03:13:00.653000+00:00,5,flagged
+compromised-scada,2023-03-22T03:41:00+00:00,Brute force or specific coil. Address: 13,1,185.175.0.5,verified,2023-03-22T03:41:25.363000+00:00,5,flagged
+compromised-scada,2023-03-22T03:41:00+00:00,Brute force or specific coil. Address: 14,1,185.175.0.5,verified,2023-03-22T03:41:25.374000+00:00,5,flagged
+compromised-scada,2023-03-22T03:41:00+00:00,Brute force or specific coil. Address: 8,1,185.175.0.5,verified,2023-03-22T03:41:25.374000+00:00,5,flagged
+compromised-scada,2023-03-22T03:41:00+00:00,Replay,5,185.175.0.5,verified,2023-03-22T03:41:25.375000+00:00,11509,flagged
